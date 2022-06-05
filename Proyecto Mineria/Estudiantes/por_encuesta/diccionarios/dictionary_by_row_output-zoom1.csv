@@ -1,0 +1,194 @@
+code,question,options
+G_encuestador, Individuo  - G_encuestador,
+G_encuestador_otro, Individuo  - G_encuestador_otro,
+G_consentimiento_leido, Individuo  - G_consentimiento_leido,Y = Sí|N = No
+G_consentimiento_aceptado, Individuo  - G_consentimiento_aceptado,Y = Sí|N = No
+G_camara_encendida, Individuo  - G_camara_encendida,Y = Sí|N = No
+G_grabar_entrevista, Individuo  - G_grabar_entrevista,Y = Sí|N = No
+G_fecha_encuesta, Individuo  - G_fecha_encuesta,
+G_nombre, Individuo  - G_nombre,
+G_apellido_paterno, Individuo  - G_apellido_paterno,
+"G_apellido_,aterno"," Individuo  - G_apellido_,aterno",
+G_folio, Individuo  - G_folio,
+G_sexo, Individuo  - G_sexo,
+G_direccion, Individuo  - G_direccion,
+G_uni_campus, Individuo  -  ¿Cúal es tu campus actual?,A1 = UNAM CIUDAD UNIVERSITARIA|A2 = UNAM CAMPUS ZARAGOZA|A3 = IBEROAMERICANA SANTA FE|A4 = UNIVERSIDAD PANAMERICANA|A5 = UNIVERSIDAD DE VALLE DE MÉXICO|A6 = UNIVERSIDAD ANÁHUAC
+G_uni_campus_otro, Individuo  -  ¿Cúal es tu campus actual? Otro,
+G_uni_carrera_campus_otro, Individuo  - ¿Estudias en otro campus?,
+G_uni_carrera_CU, Individuo  - Estudias en CU UNAM. ¿Cúal es tu carrera?,"A2 = Actuaría|A3 = Arqitectura|A4 = Arqitectura del Paisaje|A5 = Ciencias de la Computación|A6 = Diseño Industrial|A7 = Física|A8 = Ingeniería Civil|A9 = Ingeniería de Minas y Metalurgia|A10 = Ingeniería Eléctrica Electrónica|A11 = Ingeniería en Computación|A12 = Ingeniería Geofísica|A13 = Ingeniería Geológica|A14 = Ingeniería Industrial|A15 = Ingeniería Mecánica|A16 = Ingeniería Mecánica Eléctrica|A17 = Ingeniería Petrolera|A18 = Ingeniería Química|A 19 = Ingeniería Química Metalúrgica|A20 = Ingeniería Topográfica y Geodésica|A21 = Matemáticas|A22 = Urbanismo|A23 = Biología|A24 = Cirujano Dentista|A25 = Medicina Veterinaria y Zootecnista|A26 = Médico Cirujano|A27 = Psicología|A28 = Química|A29 = Química de Alimentos|A30 = Química Farmacéutico Biológica|A31 = Administración|A32 = Ciencias de la Comunicación (Periodismo)|A33 = Ciencias Políticas y Administración Pública|A34 = Contaduría|A35 = Derecho|A36 = Economía|A37 = Geografía|A38 = Relaciones Internacionales|A39 = Sociología|A40 = Estudios Latinoamericanos|A41 = Filosofía|A42 = Historia|A43 = Lengua y Literaturas Hispánicas|A44 = Lengua y Literaturas Modernas, Alemanas|A45 = Lengua y Literaturas Modernas, Francesas|A46 = Lengua y Literaturas Modernas, Inglesas|A47 = Lengua y Literaturas Modernas, Italianas|A48 = Letras Clásicas|A49 = Literatura Dramática y Teatro|A50 = Administración|A51 = Ciencias de la Comunicación|A52 = Ciencias Políticas y Administración Pública|A53 = Contaduría|A54 = Derecho|A55 = Economía|A56 = Geografía|A57 = Relaciones Internacionales|A58 = Sociología|A59 = Trabajo social|A60 = Pedagogía"
+G_uni_carrera_CU_otro, Individuo  - Estudias en CU UNAM Otro. ¿Cúal es tu carrera?,
+G_uni_carrera_Zaragoza, Individuo  - Estudias en Zaragoza. ¿Cúal es tu carrera?,A2 = Biología|A3 = Cirugano Dentista|A4 = Desarrollo Comunitario para el Envejecimiento|A5 = Enfermería|A6 = Ingenería Química|A7 = Médico Cirujano|A8 = Nutriología|A9 = Psicología|A10 = Química Farmacéutico Biológica
+G_uni_carrera_Ibero, Individuo  - Estudias en Ibero. ¿Cúal es tu carrera?,A2 = Arquitectura|A3 = Ingenería Civil|A4 = Sustentabilidad Ambiental|A5 = Diseño Gráfico|A6 = Diseño de Indumentaria y Moda|A7 = Diseño Industrial|A8 = Diseño Interactivo|A9 = Diseño Textil|A10 = Actuaría|A11 = Ingeniería Física|A12 = Ingeniería de Alimentos|A13 = Ingeniería Química|A14 = Ingeniería Industrial|A15 = Ingeniería Biomédica|A16 = Ingeniería en Tecnología de Cómputo y Telecomunicaciones|A17 = Ingeniería Mecánica y Eléctrica|A18 = Ingeniería Mecatrónica y Producción|A19 = Ciencias Políticas y Administración Pública|A20 = Derecho|A21 = Economía|A22 = Administración de Empresas|A23 = Administración de la Hospitalidad|A24 = Administración de Negocios Internacionales|A25 = Contaduría y Gestión Empresarial|A26 = Finanzas|A27 = Mercadotecnia|A28 = Relaciones Internacionales|A29 = Psicología|A30 = Nutrición y Ciencia de los Alimentos|A31 = Ciencias Teológicas|A32 = Comunicación|A33 = Filosofía|A34 = Historia|A35 = Historia del Arte|A36 = Literatura Latinoamericana|A37 = Pedagogía
+G_uni_carrera_otrauni," Individuo  - Estudias en otra universidad (No en UNAM CU, no Zaragoza, no Ibero). ¿Cúal es tu carrera?",A1 = Psicología
+G_uni_carrera_otrauni_otro," Individuo  - Estudias en otra universidad (No en UNAM CU, no Zaragoza, no Ibero). ¿Cúal es tu carrera? Otro",
+G_uni_sem, Individuo  -  ¿En qué semestre de la carrera estas actualmente?,A2 = 1|A3 = 2|A4 = 3|A5 = 4|A6 = 5|A7 = 6|A8 = 7|A9 = 8|A10 = 9|A11 = 10|A12 = 11|A13 = 12
+G_uni_cuenta, Individuo  -  Número de cuenta,
+G_nacimiento, Individuo  -  Fecha de nacimiento,
+G_estado_civ, Individuo  -  ¿Cúal es tu estado civíl?,A2 = Soltero/a|A3 = casado/a|A4 = Unión libre|A5 = Viudo/a|A6 = Divorciado/a
+G_estado_civ_otro, Individuo  -  ¿Cúal es tu estado civíl? Otro,
+G_uni_promedio, Individuo  -  ¿Cúal es tu promedio del semestre anterior?,
+G_telefono, Individuo  -  ¿Tienes teléfono celular inteligente / smarthphone?,Y = Sí|N = No
+G_telefono_num, Individuo  -  ¿Cúal es tu número?,
+G_uni_entrada, Individuo  -  ¿Cuando entraste a la carrera?,A1 = Antes de que comenzara la pandemia|A2 = Durante la pandemia
+G_salud_preuni, Individuo  -  ¿Cómo consideras que era tu salud antes de entrar a la carrera? ,A2 = Muy mala|A3 = Mala|A4 = Regular|A5 = Buena|A6 = Muy buena
+G_salud_uni_sincovid, Individuo  -  ¿Cómo consideras que era tu salud durante la carrera (sin pandemia)? ,A2 = Muy mala|A3 = Mala|A4 = Regular|A5 = Buena|A6 = Muy buena
+G_salud_uni_concovid, Individuo  -  ¿Cómo consideras que es tu salud durante la carrera (con pandemia)?  ,A2 = Muy mala|A3 = Mala|A4 = Regular|A5 = Buena|A6 = Muy buena
+G_condición_preuni, Individuo  -  ¿Cómo consideras que era tu condición fisica antes de entrar a la carrera? ,A2 = Muy mala|A3 = Mala|A4 = Regular|A5 = Buena|A6 = Muy buena
+G_condición_uni_sincovid, Individuo  -  ¿Cómo consideras que era tu condición fisica durante la carrera (sin pandemia)? ,A2 = Muy mala|A3 = Mala|A4 = Regular|A5 = Buena|A6 = Muy buena
+G_condición_uni_concovid, Individuo  -  ¿Cómo consideras que es tu condición fisica durante la carrera (con pandemia)?  ,A2 = Muy mala|A3 = Mala|A4 = Regular|A5 = Buena|A6 = Muy buena
+G_estrés_preuni, Individuo  -  ¿Cómo calificarías tu nivel de estrés antes de entrar a la carrera? ,A2 = Muy bajo|A3 = Bajo|A4 = Normal|A5 = Alto|A6 = Muy alto|A7 = No sé|A8 = Prefiero no responder
+G_estrés_uni_sincovid, Individuo  -  ¿Cómo calificarías tu nivel de estrés durante la carrera (sin pandemia)? ,A2 = Muy bajo|A3 = Bajo|A4 = Normal|A5 = Alto|A6 = Muy alto|A7 = No sé|A8 = Prefiero no responder
+G_estrés_uni_concovid, Individuo  -  ¿Cómo calificarías tu nivel de estres durante la carrera (con pandemia)?  ,A2 = Muy bajo|A3 = Bajo|A4 = Normal|A5 = Alto|A6 = Muy alto|A7 = No sé|A8 = Prefiero no responder
+G_peso_rango_preuni, Individuo  -  ¿Cómo consideras que era tu peso antes de entrar a la carrera? ,A2 = Muy bajo|A3 = Bajo|A4 = Normal|A5 = Con sobrepeso|A6 = Obeso|A7 = No sé|A8 = Prefiero no responder
+G_peso_rango_uni_sincovid, Individuo  -  ¿Cómo consideras que era tu peso durante la carrera (sin pandemia)? ,A2 = Muy bajo|A3 = Bajo|A4 = Normal|A5 = Con sobrepeso|A6 = Obeso|A7 = No sé|A8 = Prefiero no responder
+G_peso_rango_uni_concovid, Individuo  -  ¿Cómo consideras que es tu peso durante la carrera (con pandemia)?  ,A2 = Muy bajo|A3 = Bajo|A4 = Normal|A5 = Con sobrepeso|A6 = Obeso|A7 = No sé|A8 = Prefiero no responder
+G_obesidad_trat_nunca, Individuo  - Respecto a la obesidad/sobrepeso. ¿Has consultado o recibio tratamiento de un profesional de la salud al respecto?,Y = Sí|N = No
+G_obesidad_trat_pasado, Individuo  - Respecto a la obesidad/sobrepeso. ¿Has consultado o recibio tratamiento de un profesional de la salud al respecto?,Y = Sí|N = No
+G_obesidad_trat_actual, Individuo  - Respecto a la obesidad/sobrepeso. ¿Has consultado o recibio tratamiento de un profesional de la salud al respecto?,Y = Sí|N = No
+G_obesidad_trat_nosé, Individuo  - Respecto a la obesidad/sobrepeso. ¿Has consultado o recibio tratamiento de un profesional de la salud al respecto?,Y = Sí|N = No
+G_peso, Individuo  -  ¿Cuánto pesas?,
+G_peso_cambio_porcovid," Individuo  -  Respecto al peso, ¿cómo ha cambiado debido a la pandemia?",A1 = Aumentó|A2 = Se mantuvo|A3 = Disminuyó|A4 = No sé
+G_peso_cambio_poruni," Individuo  -  Respecto al peso, ¿cómo ha cambiado debido a entrar a la carrera?",A1 = Aumentó|A2 = Se mantuvo|A3 = Disminuyó|A4 = No sé
+G_pesarse_ultimo, Individuo  -  ¿Cuándo te pesaste por última vez?,A2 = Los últimos 7 días|A3 = 1-2 semanas|A4 = 2 semanas - 1 mes|A5 = 1-3 meses|A6 = 3-6 meses|A7 = No sé|A8 = No quiero responder
+G_pesarse_frecuencia, Individuo  -  ¿Cada cuánto tiempo te pesas?,A2 = Diario|A3 = 2-3 veces por semana|A4 = 1 vez a la semana|A5 = 2-3 veces al mes|A6 = 1 vez al mes|A7 = Cada 2-3 meses|A8 = Cada 6 meses|A9 = 1 vez por año|A10 = No me peso|A11 = No quiero responder
+G_pesarse_frecu_otro, Individuo  -  ¿Cada cuánto tiempo te pesas? Otro,
+G_peso_accion, Individuo  -  ¿Qué acciones te gustaría tomar respecto a tu peso?,A2 = Bajar de peso|A3 = Estoy contento con mi peso|A4 = Subir de peso|A5 = No sé|A6 = No quiero responder
+G_estatura, Individuo  -  ¿Cuánto mides?,
+G_IMCreport_sabe, Individuo  -  ¿Sabes cuál es tu Indice de Masa Corporal?,A2 = Sí|A3 = No|A4 = No se que es Índice de Masa Corporal
+G_IMCreport_sabe_otro, Individuo  -  ¿Sabes cuál es tu Indice de Masa Corporal? Otro,
+G_IMCreport_valor, Individuo  - Dijiste que sabes cuál es tu Indice de Masa Corporal. ¿Cúal es?,
+G_dx_sobrepeso, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? Sobrepeso u obesidad,Y = Sí|N = No
+G_dx_sobre_edad, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? ¿Y a qué edad?: Sobrepeso u obesidad,
+G_dx_diabetes, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades?  Diabetes,Y = Sí|N = No
+G_dx_diab_edad, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? ¿Y a qué edad?: Diabetes,
+G_dx_prediabetes, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? Prediabetes,Y = Sí|N = No
+G_dx_pred_edad, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? ¿Y a qué edad?: Prediabetes,
+G_dx_sindmetabol, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? Síndrome metabólico,Y = Sí|N = No
+G_dx_sinmet_edad, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? ¿Y a qué edad?: Síndrome metabólico,
+G_dx_hipertension, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades?  Hipertensión,Y = Sí|N = No
+G_dx_hiper_edad, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? ¿Y a qué edad?: Hipertensión,
+G_dx_colesterol, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? Colesterol alto,Y = Sí|N = No
+G_dx_col_edad, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? ¿Y a qué edad?: Colesterol alto,
+G_dx_trigliceridos, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? Trastorno de atracón,Y = Sí|N = No
+G_dx_trig_edad, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? ¿Y a qué edad?: Triglicéridos altos,
+G_dx_cancer, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades?  Cáncer,Y = Sí|N = No
+G_dx_canc_edad, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? ¿Y a qué edad?: Cáncer,
+G_dx_cardiovascular, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades?  Algún problema cardiovascular,Y = Sí|N = No
+G_dx_cardio_edad, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? ¿Y a qué edad?: Algún problema cardiovascular,
+G_dx_respiratorio, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? Algún problema respiratorio,Y = Sí|N = No
+G_dx_resp_edad, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? ¿Y a qué edad?: Algún problema respiratorio ,
+G_dx_covid19, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? COVID19,Y = Sí|N = No
+G_dx_covid_edad, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? ¿Y a qué edad?: COVID19,
+G_dx_alcoholismo, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? Alcoholismo,Y = Sí|N = No
+G_dx_alco_edad, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? ¿Y a qué edad?: Alcoholismo,
+G_dx_tabaquismo, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? Tabaquismo,Y = Sí|N = No
+G_dx_taba_edad, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? ¿Y a qué edad?: Tabaquismo,
+G_dx_alimentacion," Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? Trastorno de la alimentación (bulimia, anorexia)",Y = Sí|N = No
+G_dx_alim_edad," Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? ¿Y a qué edad?: Trastorno de la alimentación (bulimia, anorexia)",
+G_dx_atra_edad, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? ¿Y a qué edad?: Trastorno de atracón,
+G_dx_ansiedad, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? Ansiedad,Y = Sí|N = No
+G_dx_ansi_edad, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? ¿Y a qué edad?: Ansiedad,
+G_dx_depresion, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? Depresión,Y = Sí|N = No
+G_dx_depre_edad, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? ¿Y a qué edad?: Depresión,
+G_dx_toc, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? Trastorno obsesivo compulsivo,Y = Sí|N = No
+G_dx_toc_edad, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? ¿Y a qué edad?: Trastorno obsesivo compulsivo,
+G_dx_adiccion, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? Otra adicción,Y = Sí|N = No
+G_dx_adiccion_edad, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? ¿Y a qué edad?: Otra adicción,
+G_dx_otro, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? Otro,Y = Sí|N = No
+G_dx_otro_edad, Individuo  -  ¿A lo largo de tu vida te han diagnosticado con alguna de las siguientes enfermedades? ¿Y a qué edad?: Otro,
+G_figura_preuni, Individuo  -  De la imagen de Stunkard de las nueve figuras ¿En qué lugar te encontrabas antes de entrar a la carrera?,A2 = 1|A3 = 2|A4 = 3|A5 = 4|A6 = 5|A7 = 6|A8 = 7|A9 = 8|A10 = 9|A11 = No aplica
+G_figura_uni_sincovid, Individuo  -  De la imagen de Stunkard de las nueve figuras ¿En qué lugar te encontrabas al entrar a la carrera sin pandemia?,A2 = 1|A3 = 2|A4 = 3|A5 = 4|A6 = 5|A7 = 6|A8 = 7|A9 = 8|A10 = 9|A11 = No aplica
+G_figura_uni_concovid, Individuo  -  De la imagen de Stunkard de las nueve figuras ¿En qué lugar te encontrabas al entrar a la carrera con pandemia?,A2 = 1|A3 = 2|A4 = 3|A5 = 4|A6 = 5|A7 = 6|A8 = 7|A9 = 8|A10 = 9|A11 = No aplica
+G_figura_ideal, Individuo  -  De la imagen de Stunkard de las nueve figuras ¿En qué lugar te gustaría estar?,A2 = 1|A3 = 2|A4 = 3|A5 = 4|A6 = 5|A7 = 6|A8 = 7|A9 = 8|A10 = 9|A11 = No aplica
+G_trab_estudiante," Individuo  -  ¿Además de estudiar, trabajas?",Y = Sí|N = No
+G_trab_h," Individuo  - Además de estudiar, trabajas. ¿Cuántas horas por semana trabajas?",
+G_trabajo, Individuo  - Además de estudiar trabajas.¿En qué área trabajas?,A02 = Actividades deportivas|A03 = Artista|A04 = Chofer|A05 = Comerciante sector formal|A06 = Comerciante sector informal|A07 = Empresario|A08 = Comercio Virtual|A09 = Atención a clientes|A10 = Administrativo|A11 = Gubernamental administrativo|A12 = Empleado gubernamental|A13 = Operador de maquinaria móvil|A14 = Personal técnico|A15 = Área educativa|A16 = Profesionista independiente|A17 = Seguridad|A18 = Área de la salud|A19 = Construcción|A20 = Fábrica
+G_trabajo_otro, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Otro,
+G_trab_deporte, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Actividades deportivas,A2 = Entrenador de gimnasio|A3 = Profesor de clases deportivas
+G_trab_dep_otro, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Actividades deportivas: Otra opción,
+G_trab_artes, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Artista,A2 = Fotógrafo|A3 = Pintor|A4 = Músico|A5 = Cantante
+G_trab_art_otro, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Artista: Otra opción,
+G_trab_chofer, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Chofer,A2 = Taxista|A3 = Uber|A4 = Microbus|A5 = Camiones
+G_trab_chofer_otro, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Chofer: Otra opción,
+G_trab_comercioi, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Comerciante sector informal,A2 = Vendedor de comida|A3 = Periódicos|A4 = Flores y productos en un puesto no establecido
+G_trab_comi_otro, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Comerciante sector informal: Otra opción,
+G_trab_empresario, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Empresario,A2 = Dueño|A3 = Director o gerente
+G_trab_empre_otro, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Empresario: Otra opción,
+G_trab_ecommerce, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Comercio Virtual,"A2 = Vendedor de productos por internet (mercado pago, amazon, instagram, etc.)"
+G_trab_eco_otro, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Comercio Virtual: Otra opción,
+G_trab_clientes, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Atención a clientes,A2 = Atención a clientes|A3 = Recepcionista|A4 = Vendedor de tiendas departamentales|A5 = Promotor de seguros|A6 = Telefonía
+G_trab_client_otro, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Atención a clientes: Otra opción,
+G_trab_administrativo, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Administrativo,A2 = Contador público|A3 = Administrador|A4 = Recursos humanos
+G_trab_admin_otro, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Administrativo: Otra opción,
+G_trab_emple_gob, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Empleado gubernamental,A1 = ¿DE QUÉ TIPO?
+G_trab_emple_gob_otro, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Empleado gubernamental: Otra opción,
+G_trab_gobierno, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Gubernamental administrativo,"A2 = Jefe de departamento|A3 = Jefe de área, subdirector|A4 = Subadministrador|A5 = Director|A6 = Administrador|A7 = Director general"
+G_trab_gob_otro, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Gubernamental administrativo: Otra opción,
+G_trab_maquinaria, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Operador de maquinaría móvil,A1 = ¿DE QUÉ TIPO?
+G_trab_maq_otro, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Operador de maquinaría móvil: Otra opción,
+G_trab_tecnico, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Personal técnico,A1 = ¿DE QUÉ TIPO?
+G_trab_tec_otro, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Personal técnico: Otra opción,
+G_trab_educativo, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Área educativa,A2 = Investigador-profesor en universidad/preparatoria|A3 = Educación básica|A4 = Técnico en educación (educador o guardería)
+G_trab_educ_otro, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Área educativa: Otra opción,
+G_trab_independiente, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Profesionista independiente,A2 = Abogado|A3 = Psicólogo|A4 = Contador|A5 = Dentista|A6 = Médico independiente|A7 = Terapeuta
+G_trab_ind_otro, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Profesionista independiente: Otra opción,
+G_trab_seguridad, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Seguridad,A2 = Guardaespaldas|A3 = Patrullero|A4 = Vigilante|A5 = Empleado de seguridad en bancos|A6 = Empleado de seguridad privada|A7 = Policía de tránsito
+G_trab_seg_otro, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Seguridad: Otra opción,
+G_trab_salud, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Área de la salud,A2 = Médico|A3 = Enfermera|A4 = Camillero|A5 = Paramédico
+G_trab_sal_otro, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Área de la salud: Otra opción,
+G_trab_construc, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Construcción,A2 = Arquitecto|A3 = Ingeniero civil/albañil o trabajador general
+G_trab_const_otro, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Construcción: Otra opción,
+G_trab_comerciof, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Comerciante sector informal,A2 = Vendedor por cuenta propia (negocio propio)
+G_trab_comf_otro, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Comerciante sector informal: Otra opción,
+G_trab_agricultura, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Agricultura,A2 = Agricultor|A3 = Granjero|A4 = Siembra
+G_trab_agric_otro, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Agricultura: Otra opción,
+G_trab_fabrica, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Fabrica,A1 = Empleado
+G_trab_fab_otro, Individuo  - Además de estudiar trabajas.¿En qué área trabajas? Fabrica: Otra opción,
+G_trab_razon_econom, Individuo  - Además de estudiar trabajas. ¿Por qué trabajas? Razones económicas,Y = Sí|N = No
+G_trab_razon_familia, Individuo  - Además de estudiar trabajas. ¿Por qué trabajas? Razones familiares,Y = Sí|N = No
+G_trab_razon_supera, Individuo  - Además de estudiar trabajas. ¿Por qué trabajas? Superación personal,Y = Sí|N = No
+G_trab_razon_experie, Individuo  - Además de estudiar trabajas. ¿Por qué trabajas? Experiencia,Y = Sí|N = No
+G_trab_razon_otro, Individuo  - Además de estudiar trabajas. ¿Por qué trabajas? Otro,
+G_vivienda_padres, Individuo  -  ¿Vives con tus padres /familia?,A1 = Sí|A2 = No|A3 = No quiero responder
+G_vivienda_padres_focos, Individuo  -  ¿Cuántos focos tiene la vivienda de tus padres?,
+G_vivienda_renta_focos, Individuo  -  Si actualmente rentas fuera de la casa de tus padres/ familia ¿cúantos focos tiene la vivienda en donde rentas,
+G_vivienda_renta_compartir," Individuo  -  Si actualmente rentas solo, ¿con cuántas personas compartes tu habitación (dormitorio) en la vivienda donde rentas?",
+G_vivienda_padres_compartir, Individuo  -  Vives con tus padres /familia. ¿Con cuántas personas compartes tu habitación (dormitorio) en la vivienda de tus padres/familia?,
+G_nse_auto, Individuo  -  Tu o algún integrante de  este hogar tiene: ¿Automóvil?,Y = Sí|N = No
+G_nse_TV, Individuo  -  Tu o algún integrante de  este hogar tiene: ¿Servicio de TV de paga?,Y = Sí|N = No
+G_nse_lava, Individuo  -  Tu o algún integrante de  este hogar tiene: ¿Lavadora y/o secadora?,Y = Sí|N = No
+G_nse_lapt, Individuo  -  Tu o algún integrante de  este hogar tiene: ¿Laptop?,Y = Sí|N = No
+G_nse_comp, Individuo  -  Tu o algún integrante de  este hogar tiene: ¿Computadora de escritorio?,Y = Sí|N = No
+G_nse_inte, Individuo  -  Tu o algún integrante de  este hogar tiene: ¿Servicio de internet?,Y = Sí|N = No
+G_nse_celu, Individuo  -  Tu o algún integrante de  este hogar tiene: ¿Celular?,Y = Sí|N = No
+G_nse_aire, Individuo  -  Tu o algún integrante de  este hogar tiene: ¿Aire Acondicionado?,Y = Sí|N = No
+G_nse_limp, Individuo  -  Tu o algún integrante de  este hogar tiene: ¿Personas de limpieza?,Y = Sí|N = No
+G_nse_comp_compartir," Individuo  -  ¿Si tienes computadora de escritorio, compartes el uso con otro miembro de tu familia?",A1 = Sí|A2 = No|A3 = No quiero responder
+G_nse_lapt_compartir," Individuo  -  ¿Si tienes laptop, compartes el uso con otro miembro de tu familia?",A1 = Sí|A2 = No|A3 = No quiero responder
+G_escolaridad_sec, Individuo  - ¿En dónde estudiaste la secundaria?,A1 = Pública|A2 = Privada
+G_escolaridad_pre, Individuo  - ¿En dónde estudiaste la preparatoria?,A1 = Pública|A2 = Privada
+G_ejercicios, Individuo  - ¿Haces /has hecho ejercicio habitualmente?,A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+G_ejercicios_alternativo, Individuo  - ¿Haces /has hecho ejercicio habitualmente? Otra opción,
+G_ejercicios_h_preuni, Individuo  - Hacías ejercicio habitualmente antes de entrar a la carrera- ¿Cuántas horas ?,
+G_ejercicios_h_uni_sincovid, Individuo  - Hacías ejercicio habitualmente durante la carrera (sin pandemia). ¿Cuántas horas ?,
+G_ejercicios_h_uni_concovid, Individuo  - Hacías ejercicio habitualmente durante la carrera (con pandemia). ¿Cuántas horas ?,
+G_ejercicios_edad, Individuo  - Haces ejercicio habitualmente. ¿Desde qué edad has estado haciendo ejercicio?,
+G_fumar, Individuo  - ¿Fumas/ has fumado habitualmente?,A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+G_fumar_alternativo, Individuo  - ¿Fumas/ has fumado habitualmente? Otra opción,
+G_fumar_cigaros_preuni, Individuo  - Fumabas habitualmente antes de entrar a la carrera. ¿Cuántos cigarros a la semana?,
+G_fumar_cigaros_uni_sincovid, Individuo  - Fumabas habitualmente durante la carrera (sin pandemia). ¿Cuántos cigarros a la semana?,
+G_fumar_cigaros_uni_concovid, Individuo  - Fumabas habitualmente durante la carrera (con pandemia). ¿Cuántos cigarros a la semana?,
+G_fumar_edad, Individuo  - Fumas habitualmente. ¿Desde qué edad has estado fumando?,
+G_tomar, Individuo  - ¿Tomas/ has tomado habitualmente?,A01 = Sí|A02 = No|A03 = No sé|A04 = No aplica
+G_tomar_alternativo, Individuo  - ¿Tomas/ has tomado habitualmente? Otra opción,
+G_tomar_copas_preuni, Individuo  - Tomabas habitualmente antes de entrar a la carrera. ¿Cuantos copas/tragos tomabas a la semana?,
+G_tomar_copas_uni_sincovid, Individuo  - Tomabas habitualmente durante la carrera (sin pandemia. ¿Cuantos copas/tragos tomabas a la semana?,
+G_tomar_copas_uni_concovid, Individuo  - Tomabas habitualmente durante la carrera (con pandemia). ¿Cuantos copas/tragos tomabas a la semana?,
+G_tomar_edad, Individuo  - Tomas habitualmente. ¿Desde qué edad has estado tomando?,
+G_comer_cantidad_preuni, Individuo  -  ¿Cuánto consideras que comías antes de entrar a la carrera?,A2 = Mucho Menos de lo recomendado|A3 = Menos de lo recomendado|A4 = Lo recomendado|A5 = Más de lo recomendado|A6 = Mucho más de lo recomendado
+G_comer_cantidad_uni_sincovid, Individuo  -  ¿Cuánto consideras que comías durante la carrera (sin pandemia)?,A2 = Mucho Menos de lo recomendado|A3 = Menos de lo recomendado|A4 = Lo recomendado|A5 = Más de lo recomendado|A6 = Mucho más de lo recomendado
+G_comer_cantidad_otro_uni_sincovid, Individuo  -  ¿Cuánto consideras que comías durante la carrera (sin pandemia)? Otro,
+G_comer_cantidad_uni_concovid, Individuo  -  ¿Cuánto consideras que comías durante la carrera (con pandemia)?,A2 = Mucho Menos de lo recomendado|A3 = Menos de lo recomendado|A4 = Lo recomendado|A5 = Más de lo recomendado|A6 = Mucho más de lo recomendado
+G_comer_preuni, Individuo  -  ¿Comias saludable antes de entrar a la carrera?,Y = Sí|N = No
+G_comer_uni_sincovid, Individuo  -  ¿Comias saludable durante la carrera (sin pandemia)?,Y = Sí|N = No
+G_comer_uni_concovid, Individuo  -  ¿Comes saludable durante la carrera (con pandemia)?,Y = Sí|N = No

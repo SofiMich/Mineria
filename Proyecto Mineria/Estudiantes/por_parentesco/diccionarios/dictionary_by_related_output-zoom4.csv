@@ -1,0 +1,859 @@
+code,question,options
+fecha_encuesta, Individuo  - fecha_encuesta,
+folio, Individuo  - folio,
+encuestador, Individuo  - encuestador,
+encuestador_otro, Individuo  - encuestador_otro,
+pareja, - ¿Tienes pareja actualmente?,A2 = Sí|A3 = No
+edad," - Tu pareja,  ¿cúal es su edad actual?",
+sobrepeso," - Tu pareja, ¿padece sobrepeso/ obesidad",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+sobrepeso_alternativo," - Tu pareja, ¿padece sobrepeso/ obesidad? Otra opción",
+sobrepeso_020," - Tu pareja, ¿padecía sobrepeso/ obesidad entre los 0-20 años?",Y = Sí|N = No
+sobrepeso_2140," - Tu pareja, ¿padecía sobrepeso/ obesidad entre los 21-40 años?",Y = Sí|N = No
+sobrepeso_4160," - Tu pareja, ¿padecía sobrepeso/ obesidad entre los 41-60 años?",Y = Sí|N = No
+sobrepeso_m60," - Tu pareja, ¿padecía sobrepeso/ obesidad  desde sus 60 años en adelante?",Y = Sí|N = No
+sobrepeso_otro," - Tu pareja, ¿padecía sobrepeso/ obesidad? Otro rango de edad",
+tratamiento," - Tu pareja, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+tratamiento_alternativo," - Tu pareja, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad Otra opción",
+tx_020," - Tu pareja, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad entre los 0-20 años?",Y = Sí|N = No
+tx_2140," - Tu pareja, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad entre los 21-40 años?",Y = Sí|N = No
+tx_4160," - Tu pareja, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad entre los 41-60 años?",Y = Sí|N = No
+tx_m60," - Tu pareja, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad desde sus 60 años en adelante?",Y = Sí|N = No
+tx_otro," - Tu pareja, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad Otro rango de edad",
+ejercicios," - Tu pareja, ¿hace/ ha hecho ejercicio habitualmente?",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+ejercicios_alternativo," - Tu pareja, ¿hace/ ha hecho ejercicio habitualmente? Otra opción",
+ejercicios_020," - Tu pareja, ¿hacía ejercicio entre los 0-20 años?",Y = Sí|N = No
+ejercicios_2140," - Tu pareja, ¿hacía ejercicio entre los 21-40 años?",Y = Sí|N = No
+ejercicios_4160," - Tu pareja, ¿hacía ejercicio entre los 41-60 años?",Y = Sí|N = No
+ejercicios_m60," - Tu pareja, ¿hacía ejercicio desde sus 60 años en adelante?",Y = Sí|N = No
+ejercicios_otro," - Tu pareja, ¿hacía ejercicio? Otro rango de edad",
+fumar," - Tu pareja, ¿fuma/fumaba habitualmente?",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+fumar_alternativo," - Tu pareja, ¿fuma/fumaba habitualmente? Otra opción",
+fumar_020," - Tu pareja, ¿fumaba habitualmente entre los 0-20 años?",Y = Sí|N = No
+fumar_2140," - Tu pareja, ¿fumaba habitualmente entre los 21-40 años?",Y = Sí|N = No
+fumar_4160," - Tu pareja, ¿fumaba habitualmente entre los 41-60 años?",Y = Sí|N = No
+fumar_m60," - Tu pareja, ¿fumaba habitualmente desde sus 60 años en adelante?",Y = Sí|N = No
+fumar_otro," - Tu pareja, ¿fumaba habitualmente? Otro rango de edad",
+tomar," - Tu pareja, ¿toma/tomaba habitualmente?",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+tomar_alternativo," - Tu pareja, ¿toma/tomaba habitualmente? Otra opción",
+tomar_020," - Tu pareja, ¿tomaba habitualmente entre los 0-20 años?",Y = Sí|N = No
+tomar_2140," - Tu pareja, ¿tomaba habitualmente entre los 21-40 años?",Y = Sí|N = No
+tomar_4160," - Tu pareja, ¿tomaba habitualmente entre los 41-60 años?",Y = Sí|N = No
+tomar_m60," - Tu pareja, ¿tomaba habitualmente desde sus 60 años en adelante?",Y = Sí|N = No
+tomar_otro," - Tu pareja, ¿tomaba habitualmente? Otro rango de edad",
+comer," - Tu pareja, ¿come saludablemente habitualmente?",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+comer_alternativo," - Tu pareja, ¿come saludablemente habitualmente? Otra opción",
+comer_020," - Tu pareja, ¿comió saludable entre los 0-20 años?",Y = Sí|N = No
+comer_2140," - Tu pareja, ¿comió saludable entre los 21-40 años?",Y = Sí|N = No
+comer_4160," - Tu pareja, ¿comió saludable entre los 41-60 años?",Y = Sí|N = No
+comer_m60," - Tu pareja, ¿comió saludable desde sus 60 años en adelante?",Y = Sí|N = No
+comer_otro," - Tu pareja, ¿comió saludable en su vida? Otro rango de edad",
+estudios," - Tu pareja, ¿se realizaba estudios de salud habitualmente?",A2 = Nunca|A3 = Cada año|A4 = Cada 5 años|A5 = Cada 10 años|A6 = Únicamente cuando se siente mal|A7 = No sé
+estudios_alternativo," - Tu pareja, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Otra opción",
+estudio_b," - Tu pareja, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Estudios de bioquímica sanguínea",Y = Sí|N = No
+estudio_h," - Tu pareja, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Biometría hemática",Y = Sí|N = No
+estudio_e," - Tu pareja, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Electrocardiograma",Y = Sí|N = No
+estudio_m," - Tu pareja, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Papanicolau y mastografía",Y = Sí|N = No
+estudio_p," - Tu pareja, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Revisión de próstata",Y = Sí|N = No
+estudio_g," - Tu pareja, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Revisiones generales",Y = Sí|N = No
+estudio_n," - Tu pareja, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? No sé",Y = Sí|N = No
+estudio_o," - Tu pareja, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Otra opción",
+vacuna," - Tu pareja, en campaña de vacunación contra Influenza ¿se vacunaba?",A2 = Sí|A3 = No|A4 = No sé
+dx_sobrepeso," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Sobrepeso u obesidad",Y = Sí|N = No
+dx_sobre_edad," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Sobrepeso u obesidad",
+dx_diabetes," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud?  Diabetes",Y = Sí|N = No
+dx_diab_edad," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Diabetes",
+dx_prediabetes," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Prediabetes",Y = Sí|N = No
+dx_pred_edad," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Prediabetes",
+dx_sindmetabol," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Síndrome metabólico",Y = Sí|N = No
+dx_sinmet_edad," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Síndrome metabólico",
+dx_hipertension," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud?  Hipertensión",Y = Sí|N = No
+dx_hiper_edad," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Hipertensión",
+dx_colesterol," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Colesterol alto",Y = Sí|N = No
+dx_col_edad," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Colesterol alto",
+dx_trigliceridos," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Triglicéridos altos",Y = Sí|N = No
+dx_trig_edad," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Triglicéridos altos",
+dx_cancer," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud?  Cáncer",Y = Sí|N = No
+dx_canc_edad," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Cáncer",
+dx_cardiovascular," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud?  Algún problema cardiovascular",Y = Sí|N = No
+dx_cardio_edad," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Algún problema cardiovascular",
+dx_respiratorio," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Algún problema respiratorio",Y = Sí|N = No
+dx_resp_edad," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Algún problema respiratorio ",
+dx_covid19," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? COVID19",Y = Sí|N = No
+dx_covid_edad," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? COVID19",
+dx_alcoholismo," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Alcoholismo",Y = Sí|N = No
+dx_alco_edad," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Alcoholismo",
+dx_tabaquismo," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Tabaquismo",Y = Sí|N = No
+dx_taba_edad," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Tabaquismo",
+dx_alimentacion," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Trastorno de la alimentación (bulimia, anorexia)",Y = Sí|N = No
+dx_alim_edad," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Trastorno de la alimentación (bulimia, anorexia)",
+dx_atracon," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Trastorno de atracón",Y = Sí|N = No
+dx_atra_edad," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Trastorno de atracón",
+dx_ansiedad," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Ansiedad",Y = Sí|N = No
+dx_ansi_edad," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Ansiedad",
+dx_depresion," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Depresión",Y = Sí|N = No
+dx_depre_edad," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Depresión",
+dx_toc," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Trastorno obsesivo compulsivo",Y = Sí|N = No
+dx_toc_edad," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Trastorno obsesivo compulsivo",
+dx_adiccion," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Otra adicción",Y = Sí|N = No
+dx_adiccion_edad," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Otra adicción",
+dx_otro," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Otro",Y = Sí|N = No
+dx_otro_edad," - Tu pareja, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Otro",
+escolaridad_actual," - Tu pareja, ¿estudia actualmente? ",A2 = Sí|A3 = No
+escolaridad_grado," - Tu pareja, ¿estudia actualmente?, ¿en qué grado está?",A1 = No estudia actualmente|A2 = Kinder|A3 = Primaria|A4 = Secundaria|A5 = Preparatoria/Bachillerato|A6 = Licenciatura|A7 = Maestría|A8 = Doctorado|A9 = Postdoct|A10 = Carrera tecnica
+escolaridad_max," - Tu pareja, ¿cuál es su escolaridad máxima?",A89 = Ninguno|A2 = Primaria|A3 = Secundaria|A4 = Prepratoria/Bachillerato|A5 = Licenciatura|A6 = Maestría|A7 = Doctorado
+escolaridad_max_otro," - Tu pareja, ¿cuál es su escolaridad máxima? Otro",
+trabajo," - Tu pareja, ¿a qué se dedica/dedicaba principalmente?",2 = Actividades deportivas|3 = Artista|4 = Chofer|5 = Comerciante sector formal|6 = Comerciante sector informal|7 = Empresario|8 = Comercio Virtual|9 = Atención a clientes|10 = Administrativo|11 = Gubernamental administrativo|12 = Empleado gubernamental|15 = Operador de maquinaria móvil|16 = Personal técnico|17 = Área educativa|18 = Profesionista independiente|19 = Seguridad|20 = Área de la salud|21 = Construcción|22 = Fábrica|23 = Agricultura|24 = No trabaja/trabajaba
+trabajo_otro," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Otro",
+trab_deporte," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Actividades deportivas",A2 = Entrenador de gimnasio|A3 = Profesor de clases deportivas
+trab_dep_otro," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Actividades deportivas: Otra opción",
+trab_artes," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Artista",A2 = Fotógrafo|A3 = Pintor|A4 = Músico|A5 = Cantante
+trab_art_otro," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Artista: Otra opción",
+trab_chofer," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Chofer",A2 = Taxista|A3 = Uber|A4 = Microbus|A5 = Camiones
+trab_chofer_otro," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Chofer: Otra opción",
+trab_comerciof," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Comerciante sector formal",A2 = Vendedor por cuenta propia (negocio propio)
+trab_comf_otro," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Comerciante sector formal: Otra opción",
+trab_comercioi," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Comerciante sector informal","A2 = Vendedor de comida|A3 = Periódicos|A4 = Flores, productos en un puesto no establecido"
+trab_comi_otro," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Comerciante sector informal: Otra opción",
+trab_empresario," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Empresario",A2 = Dueño|A3 = Director o gerente
+trab_empre_otro," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Empresario: Otra opción",
+trab_ecommerce," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Comercio Virtual","A2 = Vendedor de productos por internet (mercado pago, amazon, instagram, etc.)"
+trab_eco_otro," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Comercio Virtual: Otra opción",
+trab_clientes," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Atención a clientes",A2 = Atención a clientes|A3 = Recepcionista|A4 = Vendedor de tiendas departamentales|A5 = Promotor de seguros|A6 = Telefonía
+trab_client_otro," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Atención a clientes: Otra opción",
+trab_administrativo," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Administrativo",A2 = Contador público|A3 = Administrador|A4 = Recursos humanos
+trab_admin_otro," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Administrativo: Otra opción",
+trab_emple_gob," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Empleado gubernamental",A1 = ¿DE QUÉ TIPO?
+trab_emple_gob_otro," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Empleado gubernamental: Otra opción",
+trab_gobierno," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Gubernamental administrativo","A2 = Jefe de departamento|A3 = Jefe de área, subdirector|A4 = Subadministrador|A5 = Director|A6 = Administrador|A7 = Director general|A8 = Administrador general"
+trab_gob_otro," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Gubernamental administrativo: Otra opción",
+trab_maquinaria," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Operador de maquinaría móvil",A9 = ¿DE QUÉ TIPO?
+trab_tecnico," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Personal técnico",A1 = ¿DE QUÉ TIPO?
+trab_tec_otro," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Personal técnico: Otra opción",
+trab_educativo," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Área educativa",A2 = Investigador-profesor en universidad/preparatoria|A3 = Educación básica|A4 = Técnico en educación (educador o guardería)
+trab_educ_otro," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Área educativa: Otra opción",
+trab_independiente," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Profesionista independiente",A2 = Abogado|A3 = Psicólogo|A4 = Contador|A5 = Dentista|A6 = Médico independiente|A7 = Terapeuta
+trab_ind_otro," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Profesionista independiente: Otra opción",
+trab_seguridad," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Seguridad",A2 = Guardaespaldas|A3 = Patrullero|A4 = Vigilante|A5 = Empleado de seguridad en bancos|A6 = Empleado de seguridad privada|A7 = Policía de tránsito
+trab_seg_otro," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Seguridad: Otra opción",
+trab_salud," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Área de la salud",A2 = Médico|A3 = Enfermera|A4 = Camillero|A5 = Paramédico
+trab_sal_otro," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Área de la salud: Otra opción",
+trab_construc," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Construcción",A2 = Arquitecto|A3 = Ingeniero civil/albañil o trabajador general
+trab_const_otro," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Construcción: Otra opción",
+trab_fabrica," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Fábrica",A2 = Empleado
+trab_fab_otro," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Fábrica: Otra opción",
+trab_agricultura," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Agricultura","A2 = Agricultor, Granjero, Siembra"
+trab_agric_otro," - Tu pareja, ¿a qué se dedica/dedicaba principalmente? Agricultura: Otra opción",
+cuantos," - Tus amigos, ¿cuántos amigos cercanos tienes?",A7 = 0|A2 = 1|A3 = 2|A4 = 3|A5 = 4|A6 = 5
+cuantos_cinco," - Tus amigos, ¿tienes más de cinco amigos?¿Cuántos?",
+edad," - Tu amigo 1, ¿cúal es su edad actual?",
+sobrepeso," - Tu amigo 1, ¿padece sobrepeso/ obesidad",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+sobrepeso_alternativo," - Tu amigo 1, ¿padece sobrepeso/ obesidad? Otra opción",
+sobrepeso_020," - Tu amigo 1, ¿padecía sobrepeso/ obesidad entre los 0-20 años?",Y = Sí|N = No
+sobrepeso_2140," - Tu amigo 1, ¿padecía sobrepeso/ obesidad entre los 21-40 años?",Y = Sí|N = No
+sobrepeso_4160," - Tu amigo 1, ¿padecía sobrepeso/ obesidad entre los 41-60 años?",Y = Sí|N = No
+sobrepeso_m60," - Tu amigo 1, ¿padecía sobrepeso/ obesidad  desde sus 60 años en adelante?",Y = Sí|N = No
+sobrepeso_otro," - Tu amigo 1, ¿padecía sobrepeso/ obesidad? Otro rango de edad",
+tratamiento," - Tu amigo 1, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+tratamiento_alternativo," - Tu amigo 1, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad Otra opción",
+tx_020," - Tu amigo 1, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad entre los 0-20 años?",Y = Sí|N = No
+tx_2140," - Tu amigo 1, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad entre los 21-40 años?",Y = Sí|N = No
+tx_4160," - Tu amigo 1, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad entre los 41-60 años?",Y = Sí|N = No
+tx_m60," - Tu amigo 1, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad desde sus 60 años en adelante?",Y = Sí|N = No
+tx_otro," - Tu amigo 1, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad Otro rango de edad",
+ejercicios," - Tu amigo 1, ¿hace ejercicio habitualmente?",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+ejercicios_alternativo," - Tu amigo 1, ¿hace ejercicio habitualmente? Otra opción",
+ejercicios_020," - Tu amigo 1, ¿hacía ejercicio entre los 0-20 años?",Y = Sí|N = No
+ejercicios_2140," - Tu amigo 1, ¿hacía ejercicio entre los 21-40 años?",Y = Sí|N = No
+ejercicios_4160," - Tu amigo 1, ¿hacía ejercicio entre los 41-60 años?",Y = Sí|N = No
+ejercicios_m60," - Tu amigo 1, ¿hacía ejercicio desde sus 60 años en adelante?",Y = Sí|N = No
+ejercicios_otro," - Tu amigo 1, ¿Hacía ejercicio? Otro rango de edad",
+fumar," - Tu amigo 1, ¿fuma/fumaba habitualmente? ",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+fumar_alternativo," - Tu amigo 1, ¿fuma/fumaba habitualmente? Otra opción",
+fumar_020," - Tu amigo 1, ¿fumaba habitualmente entre los 0-20 años?",Y = Sí|N = No
+fumar_2140," - Tu amigo 1, ¿fumaba habitualmente entre los 21-40 años?",Y = Sí|N = No
+fumar_4160," - Tu amigo 1, ¿fumaba habitualmente entre los 41-60 años?",Y = Sí|N = No
+fumar_m60," - Tu amigo 1, ¿fumaba habitualmente desde sus 60 años en adelante?",Y = Sí|N = No
+fumar_otro," - Tu amigo 1, ¿fumaba habitualmente Otro rango de edad",
+tomar," - Tu amigo 1, ¿toma/tomaba habitualmente?",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+tomar_alternativo," - Tu amigo 1, ¿toma/tomaba habitualmente?Otra opción",
+tomar_020," - Tu amigo 1, ¿tomaba habitualmente entre los 0-20 años?",Y = Sí|N = No
+tomar_2140," - Tu amigo 1, ¿tomaba habitualmente entre los 21-40 años?",Y = Sí|N = No
+tomar_4160," - Tu amigo 1, ¿tomaba habitualmente entre los 41-60 años?",Y = Sí|N = No
+tomar_m60," - Tu amigo 1, ¿tomaba habitualmente desde sus 60 años en adelante?",Y = Sí|N = No
+tomar_otro," - Tu amigo 1, ¿tomaba habitualmente Otro rango de edad",
+comer," - Tu amigo 1, ¿come saludablemente habitualmente?",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+comer_alternativo," - Tu amigo 1, ¿come saludablemente habitualmente? Otra opción",
+comer_020," - Tu amigo 1, ¿comió saludable entre los 0-20 años?",Y = Sí|N = No
+comer_2140," - Tu amigo 1, ¿comió saludable entre los 21-40 años?",Y = Sí|N = No
+comer_4160," - Tu amigo 1, ¿comió saludable entre los 41-60 años?",Y = Sí|N = No
+comer_m60," - Tu amigo 1, ¿comió saludable desde sus 60 años en adelante?",Y = Sí|N = No
+comer_otro," - Tu amigo 1, ¿comió saludable en su vida? Otro rango de edad",
+estudios," - Tu amigo 1, ¿se realizaba estudios de salud habitualmente?",A2 = Nunca|A3 = Cada año|A4 = Cada 5 años|A5 = Cada 10 años|A6 = Únicamente cuando se siente mal|A7 = No sé
+estudios_alternativo," - Tu amigo 1, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Otra opción",
+estudio_b," - Tu amigo 1, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Estudios de bioquímica sanguínea",Y = Sí|N = No
+estudio_h," - Tu amigo 1, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Biometría hemática",Y = Sí|N = No
+estudio_c," - Tu amigo 1, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Electrolitos séricos",Y = Sí|N = No
+estudio_e," - Tu amigo 1, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Electrocardiograma",Y = Sí|N = No
+estudio_m," - Tu amigo 1, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Papanicolau y mastografía",Y = Sí|N = No
+estudio_p," - Tu amigo 1, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Revisión de próstata",Y = Sí|N = No
+estudio_g," - Tu amigo 1, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Revisiones generales",Y = Sí|N = No
+estudio_o," - Tu amigo 1, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Otra opción",
+vacuna," - Tu amigo 1, en campaña de vacunación contra Influenza ¿se vacunaba?",A2 = Sí|A3 = No|A4 = No sé
+dx_sobrepeso," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Sobrepeso u obesidad",Y = Sí|N = No
+dx_sobre_edad," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Sobrepeso u obesidad",
+dx_diabetes," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud?  Diabetes",Y = Sí|N = No
+dx_diab_edad," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Diabetes",
+dx_prediabetes," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Prediabetes",Y = Sí|N = No
+dx_pred_edad," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Prediabetes",
+dx_sindmetabol," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Síndrome metabólico",Y = Sí|N = No
+dx_sinmet_edad," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Síndrome metabólico",
+dx_hipertension," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud?  Hipertensión",Y = Sí|N = No
+dx_hiper_edad," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Hipertensión",
+dx_colesterol," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Colesterol alto",Y = Sí|N = No
+dx_col_edad," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Colesterol alto",
+dx_trigliceridos," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Triglicéridos altos",Y = Sí|N = No
+dx_trig_edad," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Triglicéridos altos",
+dx_cancer," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud?  Cáncer",Y = Sí|N = No
+dx_canc_edad," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Cáncer",
+dx_cardiovascular," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud?  Algún problema cardiovascular",Y = Sí|N = No
+dx_cardio_edad," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Algún problema cardiovascular",
+dx_respiratorio," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Algún problema respiratorio",Y = Sí|N = No
+dx_resp_edad," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Algún problema respiratorio ",
+dx_covid19," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? COVID19",Y = Sí|N = No
+dx_covid_edad," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? COVID19",
+dx_alcoholismo," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Alcoholismo",Y = Sí|N = No
+dx_alco_edad," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Alcoholismo",
+dx_tabaquismo," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Tabaquismo",Y = Sí|N = No
+dx_taba_edad," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Tabaquismo",
+dx_alimentacion," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Trastorno de la alimentación (bulimia, anorexia)",Y = Sí|N = No
+dx_alim_edad," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Trastorno de la alimentación (bulimia, anorexia)",
+dx_atracon," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Trastorno de atracón",Y = Sí|N = No
+dx_atra_edad," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Trastorno de atracón",
+dx_ansiedad," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Ansiedad",Y = Sí|N = No
+dx_ansi_edad," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Ansiedad",
+dx_depresion," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Depresión",Y = Sí|N = No
+dx_depre_edad," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Depresión",
+dx_toc," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Trastorno obsesivo compulsivo",Y = Sí|N = No
+dx_toc_edad," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Trastorno obsesivo compulsivo",
+dx_adiccion," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Otra adicción",Y = Sí|N = No
+dx_adiccion_edad," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Otra adicción",
+dx_otro," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Otro",Y = Sí|N = No
+dx_otro_edad," - Tu amigo 1, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Otro",
+escolaridad_sec," - Tu amigo 1, ¿en dónde estudió la secundaria?",A2 = Pública|A3 = Privada|A4 = No sé|A5 = No la estudió
+escolaridad_pre," - Tu amigo 1, ¿en dónde estudió la preparatoria?",A2 = Pública|A3 = Privada|A4 = No sé|A5 = No la estudió
+escolaridad_max," - Tu amigo 1, ¿cuál es su escolaridad máxima?",A89 = Ninguno|A2 = Primaria|A3 = Secundaria|A4 = Preparatoria/Bachillerato|A5 = Licenciatura|A6 = Maestría|A7 = Doctorado
+escolaridad_max_otro," - Tu amigo 1, ¿cuál es su escolaridad máxima? Otro",
+trabajo," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente?",2 = Actividades deportivas|3 = Artista|4 = Chofer|5 = Comerciante sector formal|6 = Comerciante sector informal|7 = Empresario|8 = Comercio Virtual|9 = Atención a clientes|10 = Administrativo|11 = Gubernamental administrativo|12 = Empleado gubernamental|15 = Operador de maquinaria móvil|16 = Personal técnico|17 = Área educativa|18 = Profesionista independiente|19 = Seguridad|20 = Área de la salud|21 = Construcción|22 = Fábrica|23 = Agricultura|24 = No trabaja/trabajaba
+trabajo_otro," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Otro",
+trab_deporte," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Actividades deportivas",A2 = Entrenador de gimnasio|A3 = Profesor de clases deportivas
+trab_dep_otro," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Actividades deportivas: Otra opción",
+trab_artes," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Artista",A2 = Fotógrafo|A3 = Pintor|A4 = Músico|A5 = Cantante
+trab_art_otro," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Artista: Otra opción",
+trab_chofer," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Chofer",A2 = Taxista|A3 = Uber|A4 = Microbus|A5 = Camiones
+trab_chofer_otro," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Chofer: Otra opción",
+trab_comerciof," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Comerciante sector formal",A2 = Vendedor por cuenta propia (negocio propio)
+trab_comf_otro," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Comerciante sector formal: Otra opción",
+trab_comercioi," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Comerciante sector informal","A2 = Vendedor de comida|A3 = Periódicos|A4 = Flores, productos en un puesto no establecido"
+trab_comi_otro," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Comerciante sector informal: Otra opción",
+trab_empresario," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Empresario",A2 = Dueño|A3 = Director o gerente
+trab_empre_otro," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Empresario: Otra opción",
+trab_ecommerce," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Comercio Virtual","A2 = Vendedor de productos por internet (mercado pago, amazon, instagram, etc.)"
+trab_eco_otro," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Comercio Virtual: Otra opción",
+trab_clientes," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Atención a clientes",A2 = Atención a clientes|A3 = Recepcionista|A4 = Vendedor de tiendas departamentales|A5 = Promotor de seguros|A6 = Telefonía
+trab_client_otro," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Atención a clientes: Otra opción",
+trab_administrativo," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Administrativo",A2 = Contador público|A3 = Administrador|A4 = Recursos humanos
+trab_admin_otro," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Administrativo: Otra opción",
+trab_emple_gob," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Empleado gubernamental",A1 = ¿DE QUÉ TIPO?
+trab_emple_gob_otro," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Empleado gubernamental: Otra opción",
+trab_gobierno," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Gubernamental administrativo","A2 = Jefe de departamento|A3 = Jefe de área, subdirector|A4 = Subadministrador|A5 = Director|A6 = Administrador|A7 = Director general|A8 = Administrador general"
+trab_gob_otro," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Gubernamental administrativo: Otra opción",
+trab_maquinaria," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Operador de maquinaría móvil",A1 = ¿DE QUÉ TIPO?
+trab_maq_otro," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Operador de maquinaría móvil: Otra opción",
+trab_tecnico," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Personal técnico",A1 = ¿DE QUÉ TIPO?
+trab_tec_otro," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Personal técnico: Otra opción",
+trab_educativo," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Área educativa",A2 = Investigador-profesor en universidad/preparatoria|A3 = Educación básica|A4 = Técnico en educación (educador o guardería)
+trab_educ_otro," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Área educativa: Otra opción",
+trab_independiente," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Profesionista independiente",A2 = Abogado|A3 = Psicólogo|A4 = Contador|A5 = Dentista|A6 = Médico independiente|A7 = Terapeuta
+trab_ind_otro," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Profesionista independiente: Otra opción",
+trab_seguridad," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Seguridad",A2 = Guardaespaldas|A3 = Patrullero|A4 = Vigilante|A5 = Empleado de seguridad en bancos|A6 = Empleado de seguridad privada|A7 = Policía de tránsito
+trab_seg_otro," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Seguridad: Otra opción",
+trab_salud," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Área de la salud",A2 = Médico|A3 = Enfermera|A4 = Camillero|A5 = Paramédico
+trab_sal_otro," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Área de la salud: Otra opción",
+trab_construc," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Construcción",A2 = Arquitecto|A3 = Ingeniero civil/albañil o trabajador general
+trab_const_otro," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Construcción: Otra opción",
+trab_agricultura," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Agricultura",A2 = Agricultor|A3 = Granjero|A4 = Siembra
+trab_agric_otro," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Agricultura: Otra opción",
+trab_fabrica," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Fábrica",A2 = Empleado
+trab_fab_otro," - Tu amigo 1, ¿a qué se dedica/dedicaba principalmente? Fábrica: Otra opción",
+edad," - Tu amigo 2, ¿cúal es su edad actual?",
+sobrepeso," - Tu amigo 2, ¿padece sobrepeso/ obesidad?",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+sobrepeso_alternativo," - Tu amigo 2, ¿padece sobrepeso/ obesidad? Otra opción",
+sobrepeso_020," - Tu amigo 2, ¿padecía sobrepeso/ obesidad entre los 0-20 años?",Y = Sí|N = No
+sobrepeso_2140," - Tu amigo 2, ¿padecía sobrepeso/ obesidad entre los 21-40 años?",Y = Sí|N = No
+sobrepeso_4160," - Tu amigo 2, ¿padecía sobrepeso/ obesidad entre los 41-60 años?",Y = Sí|N = No
+sobrepeso_m60," - Tu amigo 2, ¿padecía sobrepeso/ obesidad  desde sus 60 años en adelante?",Y = Sí|N = No
+sobrepeso_otro," - Tu amigo 2, ¿padecía sobrepeso/ obesidad? Otro rango de edad",
+tratamiento," - Tu amigo 2, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+tratamiento_alternativo," - Tu amigo 2, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad Otra opción",
+tx_020," - Tu amigo 2, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad entre los 0-20 años?",Y = Sí|N = No
+tx_2140," - Tu amigo 2, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad entre los 21-40 años?",Y = Sí|N = No
+tx_4160," - Tu amigo 2, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad entre los 41-60 años?",Y = Sí|N = No
+tx_m60," - Tu amigo 2, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad desde sus 60 años en adelante?",Y = Sí|N = No
+tx_otro," - Tu amigo 2, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad Otro rango de edad",
+ejercicios," - Tu amigo 2, ¿hace ejercicio habitualmente?",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+ejercicios_alternativo," - Tu amigo 2, ¿hace ejercicio habitualmente? Otra opción",
+ejercicios_020," - Tu amigo 2, ¿hacía ejercicio entre los 0-20 años?",Y = Sí|N = No
+ejercicios_2140," - Tu amigo 2, ¿hacía ejercicio entre los 21-40 años?",Y = Sí|N = No
+ejercicios_4160," - Tu amigo 2, ¿hacía ejercicio entre los 41-60 años?",Y = Sí|N = No
+ejercicios_m60," - Tu amigo 2, ¿hacía ejercicio desde sus 60 años en adelante?",Y = Sí|N = No
+ejercicios_otro," - Tu amigo 2, ¿hacía ejercicio? Otro rango de edad",
+fumar," - Tu amigo 2, ¿fuma/fumaba habitualmente? ",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+fumar_alternativo," - Tu amigo 2, ¿fuma/fumaba habitualmente? Otra opción",
+fumar_020," - Tu amigo 2, ¿fumaba habitualmente entre los 0-20 años?",Y = Sí|N = No
+fumar_2140," - Tu amigo 2, ¿fumaba habitualmente entre los 21-40 años?",Y = Sí|N = No
+fumar_4160," - Tu amigo 2, ¿fumaba habitualmente entre los 41-60 años?",Y = Sí|N = No
+fumar_m60," - Tu amigo 2, ¿fumaba habitualmente  desde sus 60 años en adelante?",Y = Sí|N = No
+fumar_otro," - Tu amigo 2, ¿fumaba habitualmente? Otro rango de edad",
+tomar," - Tu amigo 2, ¿toma/tomaba habitualmente?",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+tomar_alternativo," - Tu amigo 2, ¿toma/tomaba habitualmente? Otra opción",
+tomar_020," - Tu amigo 2, ¿tomaba habitualmente entre los 0-20 años?",Y = Sí|N = No
+tomar_2140," - Tu amigo 2, ¿tomaba habitualmente entre los 21-40 años?",Y = Sí|N = No
+tomar_4160," - Tu amigo 2, ¿tomaba habitualmente entre los 41-60 años?",Y = Sí|N = No
+tomar_m60," - Tu amigo 2, ¿tomaba habitualmente desde sus 60 años en adelante?",Y = Sí|N = No
+tomar_otro," - Tu amigo 2, ¿tomaba habitualmente Otro rango de edad",
+comer," - Tu amigo 2, ¿come saludablemente habitualmente?",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+comer_alternativo," - Tu amigo 2, ¿come saludablemente habitualmente? Otra opción",
+comer_020," - Tu amigo 2, ¿comió saludable entre los 0-20 años?",Y = Sí|N = No
+comer_2140," - Tu amigo 2, ¿comió saludable entre los 21-40 años?",Y = Sí|N = No
+comer_4160," - Tu amigo 2, ¿comió saludable entre los 41-60 años?",Y = Sí|N = No
+comer_m60," - Tu amigo 2, ¿comió saludable desde sus 60 años en adelante?",Y = Sí|N = No
+comer_otro," - Tu amigo 2, ¿comió saludable en su vida? Otro rango de edad",
+estudios," - Tu amigo 2, ¿se realizaba estudios de salud habitualmente?",A2 = Nunca|A3 = Cada año|A4 = Cada 5 años|A5 = Cada 10 años|A6 = Únicamente cuando se siente mal|A7 = No sé
+estudios_alternativo," - Tu amigo 2, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Otra opción",
+estudio_b," - Tu amigo 2, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Estudios de bioquímica sanguínea",Y = Sí|N = No
+estudio_h," - Tu amigo 2, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Biometría hemática",Y = Sí|N = No
+estudio_c," - Tu amigo 2, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Electrolitos séricos",Y = Sí|N = No
+estudio_e," - Tu amigo 2, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Electrocardiograma",Y = Sí|N = No
+estudio_m," - Tu amigo 2, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Papanicolau y mastografía",Y = Sí|N = No
+estudio_p," - Tu amigo 2, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Revisión de próstata",Y = Sí|N = No
+estudio_g," - Tu amigo 2, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Revisiones generales",Y = Sí|N = No
+estudio_n," - Tu amigo 2, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? No sé",Y = Sí|N = No
+estudio_o," - Tu amigo 2, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Otra opción",Y = Sí|N = No
+vacuna," - Tu amigo 2, en campaña de vacunación contra Influenza ¿se vacunaba?",A2 = Sí|A3 = No|A4 = No sé
+dx_sobrepeso," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Sobrepeso u obesidad",Y = Sí|N = No
+dx_sobre_edad," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Sobrepeso u obesidad",
+dx_diabetes," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud?  Diabetes",Y = Sí|N = No
+dx_diab_edad," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Diabetes",
+dx_prediabetes," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Prediabetes",Y = Sí|N = No
+dx_pred_edad," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Prediabetes",
+dx_sindmetabol," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Síndrome metabólico",Y = Sí|N = No
+dx_sinmet_edad," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Síndrome metabólico",
+dx_hipertension," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud?  Hipertensión",Y = Sí|N = No
+dx_hiper_edad," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Hipertensión",
+dx_colesterol," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Colesterol alto",Y = Sí|N = No
+dx_col_edad," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Colesterol alto",
+dx_trigliceridos," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Triglicéridos altos",Y = Sí|N = No
+dx_trig_edad," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Triglicéridos altos",
+dx_cancer," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud?  Cáncer",Y = Sí|N = No
+dx_canc_edad," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Cáncer",
+dx_cardiovascular," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud?  Algún problema cardiovascular",Y = Sí|N = No
+dx_cardio_edad," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Algún problema cardiovascular",
+dx_respiratorio," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Algún problema respiratorio",Y = Sí|N = No
+dx_resp_edad," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Algún problema respiratorio ",
+dx_covid19," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? COVID19",Y = Sí|N = No
+dx_covid_edad," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? COVID19",
+dx_alcoholismo," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Alcoholismo",Y = Sí|N = No
+dx_alco_edad," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Alcoholismo",
+dx_tabaquismo," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Tabaquismo",Y = Sí|N = No
+dx_taba_edad," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Tabaquismo",
+dx_alimentacion," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Trastorno de la alimentación (bulimia, anorexia)",Y = Sí|N = No
+dx_alim_edad," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Trastorno de la alimentación (bulimia, anorexia)",
+dx_atracon," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Trastorno de atracón",Y = Sí|N = No
+dx_atra_edad," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Trastorno de atracón",
+dx_ansiedad," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Ansiedad",Y = Sí|N = No
+dx_ansi_edad," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Ansiedad",
+dx_depresion," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Depresión",Y = Sí|N = No
+dx_depre_edad," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Depresión",
+dx_toc," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Trastorno obsesivo compulsivo",Y = Sí|N = No
+dx_toc_edad," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Trastorno obsesivo compulsivo",
+dx_adiccion," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Otra adicción",Y = Sí|N = No
+dx_adiccion_edad," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Otra adicción",
+dx_otro," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Otro",Y = Sí|N = No
+dx_otro_edad," - Tu amigo 2, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Otro",
+escolaridad_sec," - Tu amigo 2, ¿en dónde estudió la secundaria?",A2 = Pública|A3 = Privada|A4 = No sé|A5 = No la estudió
+escolaridad_pre," - Tu amigo 2, ¿en dónde estudió la preparatoria?",A2 = Pública|A3 = Privada|A4 = No sé|A5 = No la estudió
+escolaridad_max," - Tu amigo 2, ¿cuál es su escolaridad máxima?",A89 = Ninguno|A2 = Primaria|A3 = Secundaria|A4 = Preparatoria/Bachillerato|A5 = Licenciatura|A6 = Maestría|A7 = Doctorado
+escolaridad_max_otro," - Tu amigo 2, ¿cuál es su escolaridad máxima? Otro",
+trabajo," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente?",2 = Actividades deportivas|3 = Artista|4 = Chofer|5 = Comerciante sector formal|6 = Comerciante sector informal|7 = Empresario|8 = Comercio Virtual|9 = Atención a clientes|10 = Administrativo|11 = Gubernamental administrativo|12 = Empleado gubernamental|15 = Operador de maquinaria móvil|16 = Personal técnico|17 = Área educativa|18 = Profesionista independiente|19 = Seguridad|20 = Área de la salud|21 = Construcción|22 = Fábrica|23 = Agricultura|24 = No trabaja/trabajaba
+trabajo_otro," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Otro",
+trab_deporte," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Actividades deportivas",A2 = Entrenador de gimnasio|A3 = Profesor de clases deportivas
+trab_dep_otro," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Actividades deportivas: Otra opción",
+trab_artes," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Artista",A2 = Fotógrafo|A3 = Pintor|A4 = Músico|A5 = Cantante
+trab_art_otro," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Artista: Otra opción",
+trab_chofer," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Chofer",A2 = Taxista|A3 = Uber|A4 = Microbus|A5 = Camiones
+trab_chofer_otro," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Chofer: Otra opción",
+trab_comerciof," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Comerciante sector formal",A2 = Vendedor por cuenta propia (negocio propio)
+trab_comf_otro," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Comerciante sector formal: Otra opción",
+trab_comercioi," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Comerciante sector informal","A2 = Vendedor de comida|A3 = Periódicos|A4 = Flores, productos en un puesto no establecido"
+trab_comi_otro," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Comerciante sector informal: Otra opción",
+trab_empresario," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Empresario",A2 = Dueño|A3 = Director o gerente
+trab_empre_otro," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Empresario: Otra opción",
+trab_ecommerce," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Comercio Virtual","A2 = Vendedor de productos por internet (mercado pago, amazon, instagram, etc.)"
+trab_eco_otro," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Comercio Virtual: Otra opción",
+trab_clientes," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Atención a clientes",A2 = Atención a clientes|A3 = Recepcionista|A4 = Vendedor de tiendas departamentales|A5 = Promotor de seguros|A6 = Telefonía
+trab_client_otro," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Atención a clientes: Otra opción",
+trab_administrativo," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Administrativo",A2 = Contador público|A3 = Administrador|A4 = Recursos humanos
+trab_admin_otro," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Administrativo: Otra opción",
+trab_emple_gob," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Empleado gubernamental",A1 = ¿DE QUÉ TIPO?
+trab_emple_gob_otro," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Empleado gubernamental: Otra opción",
+trab_gobierno," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Gubernamental administrativo","A2 = Jefe de departamento|A3 = Jefe de área, subdirector|A4 = Subadministrador|A5 = Director|A6 = Administrador|A7 = Director general|A8 = Administrador general"
+trab_gob_otro," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Gubernamental administrativo: Otra opción",
+trab_maquinaria," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Operador de maquinaría móvil",A1 = ¿DE QUÉ TIPO?
+trab_maq_otro," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Operador de maquinaría móvil: Otra opción",
+trab_tecnico," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Personal técnico",A1 = ¿DE QUÉ TIPO?
+trab_tec_otro," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Personal técnico: Otra opción",
+trab_educativo," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Área educativa",A2 = Investigador-profesor en universidad/preparatoria|A3 = Educación básica|A4 = Técnico en educación (educador o guardería)
+trab_educ_otro," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Área educativa: Otra opción",
+trab_independiente," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Profesionista independiente",A2 = Abogado|A3 = Psicólogo|A4 = Contador|A5 = Dentista|A6 = Médico independiente|A7 = Terapeuta
+trab_ind_otro," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Profesionista independiente: Otra opción",
+trab_seguridad," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Seguridad",A2 = Guardaespaldas|A3 = Patrullero|A4 = Vigilante|A5 = Empleado de seguridad en bancos|A6 = Empleado de seguridad privada|A7 = Policía de tránsito
+trab_seg_otro," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Seguridad: Otra opción",
+trab_salud," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Área de la salud",A2 = Médico|A3 = Enfermera|A4 = Camillero|A5 = Paramédico
+trab_sal_otro," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Área de la salud: Otra opción",
+trab_construc," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Construcción",A2 = Arquitecto|A3 = Ingeniero civil/albañil o trabajador general
+trab_const_otro," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Construcción: Otra opción",
+trab_agricultura," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Agricultura",A2 = Agricultor|A3 = Granjero|A4 = Siembra
+trab_agric_otro," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Agricultura: Otra opción",
+trab_fabrica," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Fábrica",A2 = Empleado
+trab_fab_otro," - Tu amigo 2, ¿a qué se dedica/dedicaba principalmente? Fábrica: Otra opción",
+edad," - Tu amigo 3, ¿cúal es su edad actual?",
+sobrepeso," - Tu amigo 3, ¿padece sobrepeso/ obesidad?",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+sobrepeso_alternativo," - Tu amigo 3, ¿padece sobrepeso/ obesidad? Otra opción",
+sobrepeso_020," - Tu amigo 3, ¿padecía sobrepeso/ obesidad entre los 0-20 años?",Y = Sí|N = No
+sobrepeso_2140," - Tu amigo 3, ¿padecía sobrepeso/ obesidad entre los 21-40 años?",Y = Sí|N = No
+sobrepeso_4160," - Tu amigo 3, ¿padecía sobrepeso/ obesidad entre los 41-60 años?",Y = Sí|N = No
+sobrepeso_m60," - Tu amigo 3, ¿padecía sobrepeso/ obesidad desde sus 60 años en adelante?",Y = Sí|N = No
+sobrepeso_otro," - Tu amigo 3, ¿padecía sobrepeso/ obesidad? Otro rango de edad",
+tratamiento," - Tu amigo 3, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+tratamiento_alternativo," - Tu amigo 3, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad Otra opción",
+tx_020," - Tu amigo 3, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad entre los 0-20 años?",Y = Sí|N = No
+tx_2140," - Tu amigo 3, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad entre los 21-40 años?",Y = Sí|N = No
+tx_4160," - Tu amigo 3, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad entre los 41-60 años?",Y = Sí|N = No
+tx_m60," - Tu amigo 3, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad desde sus 60 años en adelante?",Y = Sí|N = No
+tx_otro," - Tu amigo 3, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad Otro rango de edad",
+ejercicios," - Tu amigo 3, ¿hace ejercicio habitualmente?",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+ejercicios_alternativo," - Tu amigo 3, ¿hace ejercicio habitualmente? Otra opción",
+ejercicios_020," - Tu amigo 3, ¿hacía ejercicio entre los 0-20 años?",Y = Sí|N = No
+ejercicios_2140," - Tu amigo 3, ¿hacía ejercicio entre los 21-40 años?",Y = Sí|N = No
+ejercicios_4160," - Tu amigo 3, ¿hacía ejercicio entre los 41-60 años?",Y = Sí|N = No
+ejercicios_m60," - Tu amigo 3, ¿hacía ejercicio desde sus 60 años en adelante?",Y = Sí|N = No
+ejercicios_otro," - Tu amigo 3, ¿hacía ejercicio? Otro rango de edad",
+fumar," - Tu amigo 3, ¿fuma/fumaba habitualmente?",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+fumar_alternativo," - Tu amigo 3, ¿fuma/fumaba habitualmente? Otra opción",
+fumar_020," - Tu amigo 3, ¿fumaba habitualmente entre los 0-20 años?",Y = Sí|N = No
+fumar_2140," - Tu amigo 3, ¿fumaba habitualmente entre los 21-40 años?",Y = Sí|N = No
+fumar_4160," - Tu amigo 3, ¿fumaba habitualmente entre los 41-60 años?",Y = Sí|N = No
+fumar_m60," - Tu amigo 3, ¿fumaba habitualmente desde sus 60 años en adelante?",Y = Sí|N = No
+fumar_otro," - Tu amigo 3, ¿fumaba habitualmente Otro rango de edad",
+tomar," - Tu amigo 3, ¿toma/tomaba habitualmente? ",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+tomar_alternativo," - Tu amigo 3, ¿toma/tomaba habitualmente? Otra opción",
+tomar_020," - Tu amigo 3, ¿tomaba habitualmente entre los 0-20 años?",Y = Sí|N = No
+tomar_2140," - Tu amigo 3, ¿tomaba habitualmente entre los 21-40 años?",Y = Sí|N = No
+tomar_4160," - Tu amigo 3, ¿tomaba habitualmente entre los 41-60 años?",Y = Sí|N = No
+tomar_m60," - Tu amigo 3, ¿tomaba habitualmente desde sus 60 años en adelante?",Y = Sí|N = No
+tomar_otro," - Tu amigo 3, ¿tomaba habitualmente Otro rango de edad",
+comer," - Tu amigo 3, ¿come saludablemente habitualmente?",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+comer_alternativo," - Tu amigo 3, ¿come saludablemente habitualmente?Otra opción",
+comer_020," - Tu amigo 3, ¿comió saludable entre los 0-20 años?",Y = Sí|N = No
+comer_2140," - Tu amigo 3, ¿comió saludable entre los 21-40 años?",Y = Sí|N = No
+comer_4160," - Tu amigo 3, ¿comió saludable entre los 41-60 años?",Y = Sí|N = No
+comer_m60," - Tu amigo 3, ¿comió saludable desde sus 60 años en adelante?",Y = Sí|N = No
+comer_otro," - Tu amigo 3, ¿comió saludable en su vida? Otro rango de edad",
+estudios," - Tu amigo 3, ¿se realizaba estudios de salud?abitualmente?",A2 = Nunca|A3 = Cada año|A4 = Cada 5 años|A5 = Cada 10 años|A6 = Únicamente cuando se siente mal|A7 = No sé
+estudios_alternativo," - Tu amigo 3, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Otra opción",
+estudio_b," - Tu amigo 3, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Estudios de bioquímica sanguínea",Y = Sí|N = No
+estudio_h," - Tu amigo 3, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Biometría hemática",Y = Sí|N = No
+estudio_c," - Tu amigo 3, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Electrolitos séricos",Y = Sí|N = No
+estudio_e," - Tu amigo 3, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Electrocardiograma",Y = Sí|N = No
+estudio_m," - Tu amigo 3, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Papanicolau y mastografía",Y = Sí|N = No
+estudio_p," - Tu amigo 3, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Revisión de próstata",Y = Sí|N = No
+estudio_g," - Tu amigo 3, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Revisiones generales",Y = Sí|N = No
+estudio_n," - Tu amigo 3, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? No sé",
+estudio_o," - Tu amigo 3, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Otra opción",
+vacuna," - Tu amigo 3, en campaña de vacunación contra Influenza ¿se vacunaba?",A2 = Sí|A3 = No|A4 = No sé
+dx_sobrepeso," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Sobrepeso u obesidad",Y = Sí|N = No
+dx_sobre_edad," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Sobrepeso u obesidad",
+dx_diabetes," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud?  Diabetes",Y = Sí|N = No
+dx_diab_edad," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Diabetes",
+dx_prediabetes," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Prediabetes",Y = Sí|N = No
+dx_pred_edad," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Prediabetes",
+dx_sindmetabol," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Síndrome metabólico",Y = Sí|N = No
+dx_sinmet_edad," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Síndrome metabólico",
+dx_hipertension," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud?  Hipertensión",Y = Sí|N = No
+dx_hiper_edad," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Hipertensión",
+dx_colesterol," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Colesterol alto",Y = Sí|N = No
+dx_col_edad," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Colesterol alto",
+dx_trigliceridos," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Triglicéridos altos",Y = Sí|N = No
+dx_trig_edad," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Triglicéridos altos",
+dx_cancer," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud?  Cáncer",Y = Sí|N = No
+dx_canc_edad," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Cáncer",
+dx_cardiovascular," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud?  Algún problema cardiovascular",Y = Sí|N = No
+dx_cardio_edad," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Algún problema cardiovascular",
+dx_respiratorio," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Algún problema respiratorio",Y = Sí|N = No
+dx_resp_edad," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Algún problema respiratorio ",
+dx_covid19," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? COVID19",Y = Sí|N = No
+dx_covid_edad," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? COVID19",
+dx_alcoholismo," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Alcoholismo",Y = Sí|N = No
+dx_alco_edad," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Alcoholismo",
+dx_tabaquismo," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Tabaquismo",Y = Sí|N = No
+dx_taba_edad," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Tabaquismo",
+dx_alimentacion," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Trastorno de la alimentación (bulimia, anorexia)",Y = Sí|N = No
+dx_alim_edad," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Trastorno de la alimentación (bulimia, anorexia)",
+dx_atracon," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Trastorno de atracón",Y = Sí|N = No
+dx_atra_edad," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Trastorno de atracón",
+dx_ansiedad," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Ansiedad",Y = Sí|N = No
+dx_ansi_edad," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Ansiedad",
+dx_depresion," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Depresión",Y = Sí|N = No
+dx_depre_edad," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Depresión",
+dx_toc," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Trastorno obsesivo compulsivo",Y = Sí|N = No
+dx_toc_edad," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Trastorno obsesivo compulsivo",
+dx_adiccion," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Otra adicción",Y = Sí|N = No
+dx_adiccion_edad," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Otra adicción",
+dx_otro," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Otro",Y = Sí|N = No
+dx_otro_edad," - Tu amigo 3, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Otro",
+escolaridad_sec," - Tu amigo 3, ¿en dónde estudió la secundaria?",A2 = Pública|A3 = Privada|A4 = No sé|A5 = No la estudió
+escolaridad_pre," - Tu amigo 3, ¿en dónde estudió la preparatoria?",A2 = Pública|A3 = Privada|A4 = No sé|A5 = No la estudió
+escolaridad_max," - Tu amigo 3, ¿cuál es su escolaridad máxima?",A89 = Ninguno|A2 = Primaria|A3 = Secundaria|A4 = Preparatoria/Bachillerato|A5 = Licenciatura|A6 = Maestría|A7 = Doctorado
+escolaridad_max_otro," - Tu amigo 3, ¿cuál es su escolaridad máxima? Otro",
+trabajo," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente?",2 = Actividades deportivas|3 = Artista|4 = Chofer|5 = Comerciante sector formal|6 = Comerciante sector informal|7 = Empresario|8 = Comercio Virtual|9 = Atención a clientes|10 = Administrativo|11 = Gubernamental administrativo|12 = Empleado gubernamental|15 = Operador de maquinaria móvil|16 = Personal técnico|17 = Área educativa|18 = Profesionista independiente|19 = Seguridad|20 = Área de la salud|21 = Construcción|22 = Fábrica|23 = Agricultura|24 = No trabaja/trabajaba
+trabajo_otro," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Otro",
+trab_deporte," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Actividades deportivas",A2 = Entrenador de gimnasio|A3 = Profesor de clases deportivas
+trab_dep_otro," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Actividades deportivas: Otra opción",
+trab_artes," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Artista",A2 = Fotógrafo|A3 = Pintor|A4 = Músico|A5 = Cantante
+trab_art_otro," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Artista: Otra opción",
+trab_chofer," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Chofer",A2 = Taxista|A3 = Uber|A4 = Microbus|A5 = Camiones
+trab_chofer_otro," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Chofer: Otra opción",
+trab_comerciof," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Comerciante sector formal",A2 = Vendedor por cuenta propia (negocio propio)
+trab_comf_otro," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Comerciante sector formal: Otra opción",
+trab_comercioi," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Comerciante sector informal","A2 = Vendedor de comida|A3 = Periódicos|A4 = Flores, productos en un puesto no establecido"
+trab_comi_otro," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Comerciante sector informal: Otra opción",
+trab_empresario," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Empresario",A2 = Dueño|A3 = Director o gerente
+trab_empre_otro," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Empresario: Otra opción",
+trab_ecommerce," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Comercio Virtual",A2 = Atención a clientes|A3 = Recepcionista|A4 = Vendedor de tiendas departamentales|A5 = Promotor de seguros|A6 = Telefonía
+trab_eco_otro," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Comercio Virtual: Otra opción",
+trab_administrativo," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Administrativo",A2 = Contador público|A3 = Administrador|A4 = Recursos humanos
+trab_admin_otro," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Administrativo: Otra opción",
+trab_emple_gob," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Empleado gubernamental",A1 = ¿DE QUÉ TIPO?
+trab_emple_gob_otro," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Empleado gubernamental: Otra opción",
+trab_gobierno," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Gubernamental administrativo","A2 = Jefe de departamento|A3 = Jefe de área, subdirector|A4 = Subadministrador|A5 = Director|A6 = Administrador|A7 = Director general|A8 = Administrador general"
+trab_gob_otro," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Gubernamental administrativo: Otra opción",
+trab_maquinaria," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Operador de maquinaría móvil",A1 = ¿DE QUÉ TIPO?
+trab_maq_otro," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Operador de maquinaría móvil: Otra opción",
+trab_tecnico," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Personal técnico",A1 = ¿DE QUÉ TIPO?
+trab_tec_otro," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Personal técnico: Otra opción",
+trab_educativo," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Área educativa",A2 = Investigador-profesor en universidad/preparatoria|A3 = Educación básica|A4 = Técnico en educación (educador o guardería)
+trab_educ_otro," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Área educativa: Otra opción",
+trab_independiente," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Profesionista independiente",A2 = Abogado|A3 = Psicólogo|A4 = Contador|A5 = Dentista|A6 = Médico independiente|A7 = Terapeuta
+trab_ind_otro," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Profesionista independiente: Otra opción",
+trab_salud," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Área de la salud",A2 = Médico|A3 = Enfermera|A4 = Camillero|A5 = Paramédico
+trab_sal_otro," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Área de la salud: Otra opción",
+trab_construc," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Construcción",A2 = Arquitecto|A3 = Ingeniero civil/albañil o trabajador general
+trab_const_otro," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Construcción: Otra opción",
+trab_fabrica," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Fábrica",A2 = Empleado
+trab_fab_otro," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Fábrica: Otra opción",
+trab_agricultura," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Agricultura",A2 = Agricultor|A3 = Granjero|A4 = Siembra
+trab_agric_otro," - Tu amigo 3, ¿a qué se dedica/dedicaba principalmente? Agricultura: Otra opción",
+edad," - Tu amigo 4, ¿cúal es su edad actual?",
+sobrepeso," - Tu amigo 4, ¿padece sobrepeso/ obesidad?",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+sobrepeso_alternativo," - Tu amigo 4, ¿padece sobrepeso/ obesidad? Otra opción",
+sobrepeso_020," - Tu amigo 4, ¿padecía sobrepeso/ obesidad entre los 0-20 años?",Y = Sí|N = No
+sobrepeso_2140," - Tu amigo 4, ¿padecía sobrepeso/ obesidad entre los 21-40 años?",Y = Sí|N = No
+sobrepeso_4160," - Tu amigo 4, ¿padecía sobrepeso/ obesidad entre los 41-60 años?",Y = Sí|N = No
+sobrepeso_m60," - Tu amigo 4, ¿padecía sobrepeso/ obesidad desde sus 60 años en adelante?",Y = Sí|N = No
+sobrepeso_otro," - Tu amigo 4, ¿padecía sobrepeso/ obesidad? Otro rango de edad",
+tratamiento," - Tu amigo 4, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+tratamiento_alternativo," - Tu amigo 4, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad Otra opción",
+tx_020," - Tu amigo 4, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad entre los 0-20 años?",Y = Sí|N = No
+tx_2140," - Tu amigo 4, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad entre los 21-40 años?",Y = Sí|N = No
+tx_4160," - Tu amigo 4, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad entre los 41-60 años?",Y = Sí|N = No
+tx_m60," - Tu amigo 4, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad desde sus 60 años en adelante?",Y = Sí|N = No
+tx_otro," - Tu amigo 4, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad Otro rango de edad",
+ejercicios," - Tu amigo 4, ¿hace ejercicio habitualmente?",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+ejercicios_alternativo," - Tu amigo 4, ¿hace ejercicio habitualmente? Otra opción",
+ejercicios_020," - Tu amigo 4, ¿hacía ejercicio entre los 0-20 años?",Y = Sí|N = No
+ejercicios_2140," - Tu amigo 4, ¿hacía ejercicio entre los 21-40 años?",Y = Sí|N = No
+ejercicios_4160," - Tu amigo 4, ¿hacía ejercicio entre los 41-60 años?",Y = Sí|N = No
+ejercicios_m60," - Tu amigo 4, ¿hacía ejercicio desde sus 60 años en adelante?",Y = Sí|N = No
+ejercicios_otro," - Tu amigo 4, ¿hacía ejercicio? Otro rango de edad",
+fumar," - Tu amigo 4, ¿fuma/fumaba habitualmente?",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+fumar_alternativo," - Tu amigo 4, ¿fuma/fumaba habitualmente? Otra opción",
+fumar_020," - Tu amigo 4, ¿fumaba habitualmente entre los 0-20 años?",Y = Sí|N = No
+fumar_2140," - Tu amigo 4, ¿fumaba habitualmente entre los 21-40 años?",Y = Sí|N = No
+fumar_4160," - Tu amigo 4, ¿fumaba habitualmente entre los 41-60 años?",Y = Sí|N = No
+fumar_m60," - Tu amigo 4, ¿fumaba habitualmente desde sus 60 años en adelante?",Y = Sí|N = No
+fumar_otro," - Tu amigo 4, ¿fumaba habitualmente? Otro rango de edad",
+tomar," - Tu amigo 4, ¿toma/tomaba habitualmente?",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+tomar_alternativo," - Tu amigo 4, ¿toma/tomaba habitualmente? Otra opción",
+tomar_020," - Tu amigo 4, ¿tomaba habitualmente entre los 0-20 años?",Y = Sí|N = No
+tomar_2140," - Tu amigo 4, ¿tomaba habitualmente entre los 21-40 años?",Y = Sí|N = No
+tomar_4160," - Tu amigo 4, ¿tomaba habitualmente entre los 41-60 años?",Y = Sí|N = No
+tomar_m60," - Tu amigo 4, ¿tomaba habitualmente desde sus 60 años en adelante?",Y = Sí|N = No
+tomar_otro," - Tu amigo 4, ¿tomaba habitualmente? Otro rango de edad",
+comer," - Tu amigo 4, ¿come saludablemente habitualmente?",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+comer_alternativo," - Tu amigo 4, ¿come saludablemente habitualmente? Otra opción",
+comer_020," - Tu amigo 4, ¿comió saludable entre los 0-20 años?",Y = Sí|N = No
+comer_2140," - Tu amigo 4, ¿comió saludable entre los 21-40 años?",Y = Sí|N = No
+comer_4160," - Tu amigo 4, ¿comió saludable entre los 41-60 años?",Y = Sí|N = No
+comer_m60," - Tu amigo 4, ¿comió saludable desde sus 60 años en adelante?",Y = Sí|N = No
+comer_otro," - Tu amigo 4, ¿comió saludable en su vida? Otro rango de edad",
+estudios," - Tu amigo 4, ¿se realizaba estudios de salud habitualmente?",A2 = Nunca|A3 = Cada año|A4 = Cada 5 años|A5 = Cada 10 años|A6 = Únicamente cuando se siente mal|A7 = No sé
+estudios_alternativo," - Tu amigo 4, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Otra opción",
+estudio_b," - Tu amigo 4, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Estudios de bioquímica sanguínea",Y = Sí|N = No
+estudio_h," - Tu amigo 4, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Biometría hemática",Y = Sí|N = No
+estudio_c," - Tu amigo 4, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Electrolitos séricos",Y = Sí|N = No
+estudio_e," - Tu amigo 4, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Electrocardiograma",Y = Sí|N = No
+estudio_m," - Tu amigo 4, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Papanicolau y mastografía",Y = Sí|N = No
+estudio_p," - Tu amigo 4, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Revisión de próstata",Y = Sí|N = No
+estudio_g," - Tu amigo 4, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Revisiones generales",Y = Sí|N = No
+estudio_n," - Tu amigo 4, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? No sé",
+estudio_o," - Tu amigo 4, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Otra opción",
+vacuna," - Tu amigo 4, en campaña de vacunación contra Influenza ¿se vacunaba?",A2 = Sí|A3 = No|A4 = No sé
+dx_sobrepeso," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Sobrepeso u obesidad",Y = Sí|N = No
+dx_sobre_edad," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Sobrepeso u obesidad",
+dx_diabetes," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud?  Diabetes",Y = Sí|N = No
+dx_diab_edad," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Diabetes",
+dx_prediabetes," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Prediabetes",Y = Sí|N = No
+dx_pred_edad," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Prediabetes",
+dx_sindmetabol," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Síndrome metabólico",Y = Sí|N = No
+dx_sinmet_edad," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Síndrome metabólico",
+dx_hipertension," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud?  Hipertensión",Y = Sí|N = No
+dx_hiper_edad," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Hipertensión",
+dx_colesterol," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Colesterol alto",Y = Sí|N = No
+dx_col_edad," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Colesterol alto",
+dx_trigliceridos," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Triglicéridos altos",Y = Sí|N = No
+dx_trig_edad," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Triglicéridos altos",
+dx_cancer," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud?  Cáncer",Y = Sí|N = No
+dx_canc_edad," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Cáncer",
+dx_cardiovascular," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud?  Algún problema cardiovascular",Y = Sí|N = No
+dx_cardio_edad," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Algún problema cardiovascular",
+dx_respiratorio," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Algún problema respiratorio",Y = Sí|N = No
+dx_resp_edad," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Algún problema respiratorio ",
+dx_covid19," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? COVID19",Y = Sí|N = No
+dx_covid_edad," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? COVID19",
+dx_alcoholismo," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Alcoholismo",Y = Sí|N = No
+dx_alco_edad," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Alcoholismo",
+dx_tabaquismo," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Tabaquismo",Y = Sí|N = No
+dx_taba_edad," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Tabaquismo",
+dx_alimentacion," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Trastorno de la alimentación (bulimia, anorexia)",Y = Sí|N = No
+dx_alim_edad," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Trastorno de la alimentación (bulimia, anorexia)",
+dx_atracon," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Trastorno de atracón",Y = Sí|N = No
+dx_atra_edad," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Trastorno de atracón",
+dx_ansiedad," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Ansiedad",Y = Sí|N = No
+dx_ansi_edad," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Ansiedad",
+dx_depresion," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Depresión",Y = Sí|N = No
+dx_depre_edad," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Depresión",
+dx_toc," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Trastorno obsesivo compulsivo",Y = Sí|N = No
+dx_toc_edad," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Trastorno obsesivo compulsivo",
+dx_adiccion," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Otra adicción",Y = Sí|N = No
+dx_adiccion_edad," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Otra adicción",
+dx_otro," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Otro",Y = Sí|N = No
+dx_otro_edad," - Tu amigo 4, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Otro",
+escolaridad_sec," - Tu amigo 4, ¿en dónde estudió la secundaria?",A2 = Pública|A3 = Privada|A4 = No sé|A5 = No la estudió
+escolaridad_pre," - Tu amigo 4, ¿en dónde estudió la preparatoria?",A2 = Pública|A3 = Privada|A4 = No sé|A5 = No la estudió
+escolaridad_max," - Tu amigo 4, ¿cuál es su escolaridad máxima?",A89 = Ninguno|A2 = Primaria|A3 = Secundaria|A4 = Preparatoria/Bachillerato|A5 = Licenciatura|A6 = Maestría|A7 = Doctorado
+escolaridad_max_otro," - Tu amigo 4, ¿cuál es su escolaridad máxima? Otro",
+trabajo," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente?",2 = Actividades deportivas|3 = Artista|4 = Chofer|5 = Comerciante sector formal|6 = Comerciante sector informal|7 = Empresario|8 = Comercio Virtual|9 = Atención a clientes|10 = Administrativo|11 = Gubernamental administrativo|12 = Empleado gubernamental|15 = Operador de maquinaria móvil|16 = Personal técnico|17 = Área educativa|18 = Profesionista independiente|19 = Seguridad|20 = Área de la salud|21 = Construcción|22 = Fábrica|23 = Agricultura|24 = No trabaja/trabajaba
+trabajo_otro," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Otro",
+trab_deporte," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Actividades deportivas",A2 = Entrenador de gimnasio|A3 = Profesor de clases deportivas
+trab_dep_otro," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Actividades deportivas: Otra opción",
+trab_artes," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Artista",A2 = Fotógrafo|A3 = Pintor|A4 = Músico|A5 = Cantante
+trab_art_otro," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Artista: Otra opción",
+trab_chofer," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Chofer",A2 = Taxista|A3 = Uber|A4 = Microbus|A5 = Camiones
+trab_chofer_otro," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Chofer: Otra opción",
+trab_comerciof," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Comerciante sector formal",A2 = Vendedor por cuenta propia (negocio propio)
+trab_comf_otro," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Comerciante sector formal: Otra opción",
+trab_comercioi," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Comerciante sector informal",A2 = Vendedor de comida|A3 = Periódicos|A4 = Flores y productos en un puesto no establecido
+trab_comi_otro," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Comerciante sector informal: Otra opción",
+trab_empresario," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Empresario",A2 = Dueño|A3 = Director o gerente
+trab_empre_otro," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Empresario: Otra opción",
+trab_ecommerce," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Comercio Virtual","A2 = Vendedor de productos por internet (mercado pago, amazon, instagram, etc.)"
+trab_eco_otro," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Comercio Virtual: Otra opción",
+trab_clientes," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Atención a clientes",A2 = Atención a clientes|A3 = Recepcionista|A4 = Vendedor de tiendas departamentales|A5 = Promotor de seguros|A6 = Telefonía
+trab_client_otro," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Atención a clientes: Otra opción",
+trab_administrativo," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Administrativo",A2 = Contador público|A3 = Administrador|A4 = Recursos humanos
+trab_admin_otro," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Administrativo: Otra opción",
+trab_emple_gob," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Empleado gubernamental",A1 = ¿DE QUÉ TIPO?
+trab_emple_gob_otro," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Empleado gubernamental: Otra opción",
+trab_gobierno," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Gubernamental administrativo","A2 = Jefe de departamento|A3 = Jefe de área, subdirector|A4 = Subadministrador|A5 = Director|A6 = Administrador|A7 = Director general|A8 = Administrador general"
+trab_gob_otro," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Gubernamental administrativo: Otra opción",
+trab_maquinaria," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Operador de maquinaría móvil",A1 = ¿DE QUÉ TIPO?
+trab_maq_otro," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Operador de maquinaría móvil: Otra opción",
+trab_tecnico," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Personal técnico",A1 = ¿DE QUÉ TIPO?
+trab_tec_otro," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Personal técnico: Otra opción",
+trab_educativo," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Área educativa",A2 = Investigador-profesor en universidad/preparatoria|A3 = Educación básica|A4 = Técnico en educación (educador o guardería)
+trab_educ_otro," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Área educativa: Otra opción",
+trab_independiente," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Profesionista independiente",A2 = Abogado|A3 = Psicólogo|A4 = Contador|A5 = Dentista|A6 = Médico independiente|A7 = Terapeuta
+trab_ind_otro," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Profesionista independiente: Otra opción",
+trab_seguridad," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Seguridad",A2 = Guardaespaldas|A3 = Patrullero|A4 = Vigilante|A5 = Empleado de seguridad en bancos|A6 = Empleado de seguridad privada|A7 = Policía de tránsito
+trab_seg_otro," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Seguridad: Otra opción",
+trab_salud," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Área de la salud",A2 = Médico|A3 = Enfermera|A4 = Camillero|A5 = Paramédico
+trab_sal_otro," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Área de la salud: Otra opción",
+trab_construc," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Construcción",A2 = Arquitecto|A3 = Ingeniero civil/albañil o trabajador general
+trab_const_otro," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Construcción: Otra opción",
+trab_fabrica," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Fabrica",A2 = Empleado
+trab_fab_otro," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Fabrica: Otra opción",
+trab_agricultura," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Agricultura",A2 = Agricultor|A3 = Granjero|A4 = Siembra
+trab_agric_otro," - Tu amigo 4, ¿a qué se dedica/dedicaba principalmente? Agricultura: Otra opción",
+edad," - Tu amigo 5, ¿cúal es su edad actual?",
+sobrepeso," - Tu amigo 5, ¿padece sobrepeso/ obesidad",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+sobrepeso_alternativo," - Tu amigo 5, ¿padece sobrepeso/ obesidad? Otra opción",
+sobrepeso_020," - Tu amigo 5, ¿padecía sobrepeso/ obesidad entre los 0-20 años?",Y = Sí|N = No
+sobrepeso_2140," - Tu amigo 5, ¿padecía sobrepeso/ obesidad entre los 21-40 años?",Y = Sí|N = No
+sobrepeso_4160," - Tu amigo 5, ¿padecía sobrepeso/ obesidad entre los 41-60 años?",Y = Sí|N = No
+sobrepeso_m60," - Tu amigo 5, ¿padecía sobrepeso/ obesidad  desde sus 60 años en adelante?",Y = Sí|N = No
+sobrepeso_otro," - Tu amigo 5, ¿padecía sobrepeso/ obesidad? Otro rango de edad",
+tratamiento," - Tu amigo 5, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+tratamiento_alternativo," - Tu amigo 5, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad Otra opción",
+tx_020," - Tu amigo 5, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad entre los 0-20 años?",Y = Sí|N = No
+tx_2140," - Tu amigo 5, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad entre los 21-40 años?",Y = Sí|N = No
+tx_4160," - Tu amigo 5, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad entre los 41-60 años?",Y = Sí|N = No
+tx_m60," - Tu amigo 5, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad desde sus 60 años en adelante?",Y = Sí|N = No
+tx_otro," - Tu amigo 5, ¿consultó o recibió tratamiento de un profesional de la salud al respecto? Sobrepeso u obesidad Otro rango de edad",
+ejercicios," - Tu amigo 5, ¿hace ejercicio habitualmente?",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+ejercicios_alternativo," - Tu amigo 5, ¿hace ejercicio habitualmente? Otra opción",
+ejercicios_020," - Tu amigo 5, ¿hacía ejercicio entre los 0-20 años?",Y = Sí|N = No
+ejercicios_2140," - Tu amigo 5, ¿hacía ejercicio entre los 21-40 años?",Y = Sí|N = No
+ejercicios_4160," - Tu amigo 5, ¿hacía ejercicio entre los 41-60 años?",Y = Sí|N = No
+ejercicios_m60," - Tu amigo 5, ¿hacía ejercicio desde sus 60 años en adelante?",Y = Sí|N = No
+ejercicios_otro," - Tu amigo 5, ¿hacía ejercicio? Otro rango de edad",
+fumar," - Tu amigo 5, ¿fuma/fumaba habitualmente?",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+fumar_alternativo," - Tu amigo 5, ¿fuma/fumaba habitualmente? Otra opción",
+fumar_020," - Tu amigo 5, ¿fumaba habitualmente entre los 0-20 años?",Y = Sí|N = No
+fumar_2140," - Tu amigo 5, ¿fumaba habitualmente entre los 21-40 años?",Y = Sí|N = No
+fumar_4160," - Tu amigo 5, ¿fumaba habitualmente entre los 41-60 años?",Y = Sí|N = No
+fumar_m60," - Tu amigo 5, ¿fumaba habitualmente desde sus 60 años en adelante?",Y = Sí|N = No
+fumar_otro," - Tu amigo 5, ¿fumaba habitualmente? Otro rango de edad",
+tomar," - Tu amigo 5, ¿toma/tomaba habitualmente?",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+tomar_alternativo," - Tu amigo 5, ¿toma/tomaba habitualmente? Otra opción",
+tomar_020," - Tu amigo 5, ¿tomaba habitualmente entre los 0-20 años?",Y = Sí|N = No
+tomar_2140," - Tu amigo 5, ¿tomaba habitualmente entre los 21-40 años?",Y = Sí|N = No
+tomar_4160," - Tu amigo 5, ¿tomaba habitualmente entre los 41-60 años?",Y = Sí|N = No
+tomar_m60," - Tu amigo 5, ¿tomaba habitualmente desde sus 60 años en adelante?",Y = Sí|N = No
+tomar_otro," - Tu amigo 5, ¿tomaba habitualmente? Otro rango de edad",
+comer," - Tu amigo 5, ¿come saludablemente habitualmente?",A2 = Sí|A3 = No|A4 = No sé|A5 = No aplica
+comer_alternativo," - Tu amigo 5, ¿come saludablemente habitualmente? Otra opción",
+comer_020," - Tu amigo 5, ¿comió saludable entre los 0-20 años?",Y = Sí|N = No
+comer_2140," - Tu amigo 5, ¿comió saludable entre los 21-40 años?",Y = Sí|N = No
+comer_4160," - Tu amigo 5, ¿comió saludable entre los 41-60 años?",Y = Sí|N = No
+comer_m60," - Tu amigo 5, ¿comió saludable desde sus 60 años en adelante?",Y = Sí|N = No
+comer_otro," - Tu amigo 5, ¿comió saludable en su vida? Otro rango de edad",
+estudios," - Tu amigo 5, ¿se realizaba estudios de salud habitualmente?",A2 = Nunca|A3 = Cada año|A4 = Cada 5 años|A5 = Cada 10 años|A6 = Únicamente cuando se siente mal|A7 = No sé
+estudios_alternativo," - Tu amigo 5, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Otra opción",
+estudio_b," - Tu amigo 5, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Estudios de bioquímica sanguínea",Y = Sí|N = No
+estudio_h," - Tu amigo 5, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Biometría hemática",Y = Sí|N = No
+estudio_c," - Tu amigo 5, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Electrolitos séricos",Y = Sí|N = No
+estudio_e," - Tu amigo 5, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Electrocardiograma",Y = Sí|N = No
+estudio_m," - Tu amigo 5, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Papanicolau y mastografía",Y = Sí|N = No
+estudio_p," - Tu amigo 5, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Revisión de próstata",Y = Sí|N = No
+estudio_g," - Tu amigo 5, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Revisiones generales",Y = Sí|N = No
+estudio_n," - Tu amigo 5, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? No sé",Y = Sí|N = No
+estudio_o," - Tu amigo 5, ¿se realizaba estudios de salud habitualmente? ¿qué estudios? Otra opción",
+vacuna," - Tu amigo 5, en campaña de vacunación contra Influenza ¿se vacunaba?",A2 = Sí|A3 = No|A4 = No sé
+dx_sobrepeso," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Sobrepeso u obesidad",Y = Sí|N = No
+dx_sobre_edad," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Sobrepeso u obesidad",
+dx_diabetes," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud?  Diabetes",Y = Sí|N = No
+dx_diab_edad," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Diabetes",
+dx_prediabetes," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Prediabetes",Y = Sí|N = No
+dx_pred_edad," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Prediabetes",
+dx_sindmetabol," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Síndrome metabólico",Y = Sí|N = No
+dx_sinmet_edad," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Síndrome metabólico",
+dx_hipertension," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud?  Hipertensión",Y = Sí|N = No
+dx_hiper_edad," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Hipertensión",
+dx_colesterol," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Colesterol alto",Y = Sí|N = No
+dx_col_edad," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Colesterol alto",
+dx_trigliceridos," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Triglicéridos altos",Y = Sí|N = No
+dx_trig_edad," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Triglicéridos altos",
+dx_cancer," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud?  Cáncer",Y = Sí|N = No
+dx_canc_edad," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Cáncer",
+dx_cardiovascular," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud?  Algún problema cardiovascular",Y = Sí|N = No
+dx_cardio_edad," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Algún problema cardiovascular",
+dx_respiratorio," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Algún problema respiratorio",Y = Sí|N = No
+dx_resp_edad," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Algún problema respiratorio ",
+dx_covid19," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? COVID19",Y = Sí|N = No
+dx_covid_edad," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? COVID19",
+dx_alcoholismo," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Alcoholismo",Y = Sí|N = No
+dx_alco_edad," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Alcoholismo",
+dx_tabaquismo," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Tabaquismo",Y = Sí|N = No
+dx_taba_edad," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Tabaquismo",
+dx_alimentacion," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Trastorno de la alimentación (bulimia, anorexia)",Y = Sí|N = No
+dx_alim_edad," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Trastorno de la alimentación (bulimia, anorexia)",
+dx_atracon," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Trastorno de atracón",Y = Sí|N = No
+dx_atra_edad," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Trastorno de atracón",
+dx_ansiedad," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Ansiedad",Y = Sí|N = No
+dx_ansi_edad," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Ansiedad",
+dx_depresion," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Depresión",Y = Sí|N = No
+dx_depre_edad," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Depresión",
+dx_toc," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Trastorno obsesivo compulsivo",Y = Sí|N = No
+dx_toc_edad," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Trastorno obsesivo compulsivo",
+dx_adiccion," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Otra adicción",Y = Sí|N = No
+dx_adiccion_edad," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Otra adicción",
+dx_otro," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? Otro",Y = Sí|N = No
+dx_otro_edad," - Tu amigo 5, ¿desarrolló o se le ha  diagnosticado alguna de las siguientes enfermedades por un profesional de la salud? ¿Y a qué edad? Otro",
+escolaridad_sec," - Tu amigo 5, ¿en dónde estudió la secundaria?",A2 = Pública|A3 = Privada|A4 = No sé|A5 = No la estudió
+escolaridad_pre," - Tu amigo 5, ¿en dónde estudió la preparatoria?",A2 = Pública|A3 = Privada|A4 = No sé|A5 = No la estudió
+escolaridad_max," - Tu amigo 5, ¿cuál es su escolaridad máxima?",A89 = Ninguno|A2 = Primaria|A3 = Secundaria|A4 = Preparatoria/Bachillerato|A5 = Licenciatura|A6 = Maestría|A7 = Doctorado
+escolaridad_max_otro," - Tu amigo 5, ¿cuál es su escolaridad máxima? Otro",
+trabajo," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente?",2 = Actividades deportivas|3 = Artista|4 = Chofer|5 = Comerciante sector formal|6 = Comerciante sector informal|7 = Empresario|8 = Comercio Virtual|9 = Atención a clientes|10 = Administrativo|11 = Gubernamental administrativo|12 = Empleado gubernamental|15 = Operador de maquinaria móvil|16 = Personal técnico|17 = Área educativa|18 = Profesionista independiente|19 = Seguridad|20 = Área de la salud|21 = Construcción|22 = Fábrica|23 = Agricultura|24 = No trabaja/trabajaba
+trabajo_otro," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Otro",
+trab_deporte," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Actividades deportivas",A2 = Entrenador de gimnasio|A3 = Profesor de clases deportivas
+trab_dep_otro," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Actividades deportivas: Otra opción",
+trab_artes," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Artista",A2 = Fotógrafo|A3 = Pintor|A4 = Músico|A5 = Cantante
+trab_art_otro," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Artista: Otra opción",
+trab_chofer," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Chofer",A2 = Taxista|A3 = Uber|A4 = Microbus|A5 = Camiones
+trab_chofer_otro," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Chofer: Otra opción",
+trab_comerciof," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Comerciante sector formal",A2 = Vendedor por cuenta propia (negocio propio)
+trab_comf_otro," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Comerciante sector formal: Otra opción",
+trab_comercioi," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Comerciante sector informal","A2 = Vendedor de comida|A3 = Periódicos|A4 = Flores, productos en un puesto no establecido"
+trab_comi_otro," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Comerciante sector informal: Otra opción",
+trab_empresario," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Empresario",A2 = Dueño|A3 = Director o gerente
+trab_empre_otro," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Empresario: Otra opción",
+trab_ecommerce," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Comercio Virtual","A2 = Vendedor de productos por internet (mercado pago, amazon, instagram, etc.)"
+trab_eco_otro," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Comercio Virtual: Otra opción",
+trab_clientes," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Atención a clientes",A2 = Atención a clientes|A3 = Recepcionista|A4 = Vendedor de tiendas departamentales|A5 = Promotor de seguros|A6 = Telefonía
+trab_client_otro," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Atención a clientes: Otra opción",
+trab_administrativo," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Administrativo",A2 = Contador público|A3 = Administrador|A4 = Recursos humanos
+trab_admin_otro," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Administrativo: Otra opción",
+trab_emple_gob," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Empleado gubernamental",A1 = ¿DE QUÉ TIPO?
+trab_emple_gob_otro," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Empleado gubernamental: Otra opción",
+trab_gobierno," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Gubernamental administrativo","A2 = Jefe de departamento|A3 = Jefe de área, subdirector|A4 = Subadministrador|A5 = Director|A6 = Administrador|A7 = Director general|A8 = Administrador general"
+trab_gob_otro," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Gubernamental administrativo: Otra opción",
+trab_maquinaria," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Operador de maquinaría móvil",A1 = ¿DE QUÉ TIPO?
+trab_maq_otro," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Operador de maquinaría móvil: Otra opción",
+trab_tecnico," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Personal técnico",A1 = ¿DE QUÉ TIPO?
+trab_tec_otro," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Personal técnico: Otra opción",
+trab_educativo," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Área educativa",A2 = Investigador-profesor en universidad/preparatoria|A3 = Educación básica|A4 = Técnico en educación (educador o guardería)
+trab_educ_otro," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Área educativa: Otra opción",
+trab_independiente," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Profesionista independiente",A2 = Abogado|A3 = Psicólogo|A4 = Contador|A5 = Dentista|A6 = Médico independiente|A7 = Terapeuta
+trab_ind_otro," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Profesionista independiente: Otra opción",
+trab_seguridad," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Seguridad",A2 = Guardaespaldas|A3 = Patrullero|A4 = Vigilante|A5 = Empleado de seguridad en bancos|A6 = Empleado de seguridad privada|A7 = Policía de tránsito
+trab_seg_otro," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Seguridad: Otra opción",
+trab_salud," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Área de la salud",A2 = Médico|A3 = Enfermera|A4 = Camillero|A5 = Paramédico
+trab_sal_otro," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Área de la salud: Otra opción",
+trab_construc," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Construcción",A2 = Arquitecto|A3 = Ingeniero civil/albañil o trabajador general
+trab_const_otro," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Construcción: Otra opción",
+trab_fabrica," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Fábrica",A2 = Empleado
+trab_fab_otro," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Fábrica: Otra opción",
+trab_agricultura," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Agricultura",A2 = Agricultor|A3 = Granjero|A4 = Siembra
+trab_agric_otro," - Tu amigo 5, ¿a qué se dedica/dedicaba principalmente? Agricultura: Otra opción",
+sobrepeso," - Tu amigo 5, ¿qué proporción tienen sobrepeso y obesidad?",A2 = 0-25% |A3 = 25-50%|A4 = 50-75%|A5 = 75-100%
+sobrepeso_alternativo," - Tu circulo social, ¿qué proporción tienen sobrepeso y obesidad? Otro",
+ejercicios," - Tu circulo social, ¿qué proporción hace ejercicio habitualmente?",A2 = 0-25% |A3 = 25-50%|A4 = 50-75%|A5 = 75-100%
+ejercicios_alternativo," - Tu circulo social, ¿qué proporción hace ejercicio habitualmente? Otro",
+fumar," - Tu circulo social, ¿qué proporción fuma habitualmente?",A2 = 0-25% |A3 = 25-50%|A4 = 50-75%|A5 = 75-100%
+fumar_alternativo," - Tu circulo social, ¿qué proporción fuma habitualmente? Otro",
+tomar," - Tu circulo social, ¿qué proporción toma habitualmente?",A2 = 0-25% |A3 = 25-50%|A4 = 50-75%|A5 = 75-100%
+tomar_alternativo," - Tu circulo social, ¿qué proporción toma habitualmente? Otro",
+comer," - Tu circulo social, ¿qué proporción se alimenta sanamente habitualmente?",A2 = 0-25% |A3 = 25-50%|A4 = 50-75%|A5 = 75-100%
+comer_alternativo," - Tu circulo social, ¿qué proporción se alimenta sanamente habitualmente? Otro",
+estudios," - Tu circulo social, ¿qué proporción se realiza estudios clínicos habitualmente?",A2 = 0-25% |A3 = 25-50%|A4 = 50-75%|A5 = 75-100%
+estudios_alternativo," - Tu circulo social, ¿qué proporción se realiza estudios clínicos habitualmente? Otro",
